@@ -6,6 +6,8 @@ authors:
     given-names: "Berna"
 repository-code: "https://github.com/beruy/thermoelectric-extraction-benchmark"
 license: MIT
+version: "v1.0"
+doi: "10.5281/zenodo.23522991"
 type: software
 # Add after publication:
 # preferred-citation: arXiv identifier and Zenodo DOI

@@ -3,6 +3,8 @@
 Code, protocol, gold standards and all method outputs for the paper of the same
 title (arXiv: to be added).
 
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23522991.svg)](https://doi.org/10.5281/zenodo.23522991)
+
 Five methods extract thermoelectric property records (ZT, Seebeck coefficient,
 thermal and electrical conductivity, power factor; doping separately) from
 single paragraphs of 311 papers (299 arXiv preprints, 12 open-access
@@ -73,5 +75,6 @@ licences of the source papers.
 
 ## Citation
 
-See `CITATION.cff`. The arXiv identifier and Zenodo DOI will be added on
-publication.
+See `CITATION.cff`. Release v1.0 is archived on Zenodo:
+[10.5281/zenodo.23522991](https://doi.org/10.5281/zenodo.23522991). The arXiv
+identifier will be added on publication.
