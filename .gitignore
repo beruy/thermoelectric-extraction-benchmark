@@ -22,3 +22,7 @@ paper/
 corpus-main/
 regex_output/paragraphs.jsonl
 regex_output/candidates.*
+
+# Local build and scratch files
+texput.log
+tmp/

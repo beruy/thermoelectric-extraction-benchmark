@@ -5,7 +5,8 @@ title (arXiv: to be added).
 
 Five methods extract thermoelectric property records (ZT, Seebeck coefficient,
 thermal and electrical conductivity, power factor; doping separately) from
-single paragraphs of 311 arXiv papers. The methods were frozen before the test
+single paragraphs of 311 papers (299 arXiv preprints, 12 open-access
+journal articles). The methods were frozen before the test
 sample was annotated. A record is correct at the primary level (L3) only if
 property, value, temperature and material all match the gold standard.
 
@@ -51,7 +52,8 @@ Python 3.8 environments, listed in `evaluation/manifests/env/`; M3 needs
 
 ## Corpus and limitations
 
-The papers are identified by arXiv identifiers in `evaluation/data/split.json`;
+The papers are identified by arXiv identifiers or DOIs in
+`evaluation/data/split.json`;
 the papers and the full paragraph frame are not redistributed. Main
 limitations, with all deviations listed in `evaluation/PROTOCOL.md` §13 and
 `results/test_run_notes_2026-10-20.md`:
