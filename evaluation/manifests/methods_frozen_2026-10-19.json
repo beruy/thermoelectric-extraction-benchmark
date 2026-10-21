@@ -1,0 +1,129 @@
+{
+  "recorded": "2026-10-19T22:49:54+00:00",
+  "purpose": "methods and scorer frozen before test annotation (PROTOCOL.md §9); every test run is preceded by `python -m evaluation.freeze check`",
+  "methods": {
+    "M0": {
+      "name": "regex baseline (corpus-informed)",
+      "files": {
+        "regex_extractor/__init__.py": "2317e20cdd277831db74352c9e764ccc83201842af7a463b7c1afc019b99acf3",
+        "regex_extractor/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+        "regex_extractor/cli.py": "45cac063997f9a3a521b48498add75e44a113dac2d2384f7fe19c4cd58c23a67",
+        "regex_extractor/extractor.py": "ee2fbfc32ab6593bdd5d4c542e86cf1542b4b39de171d3e923ebb4a5a282723a",
+        "regex_extractor/predict.py": "67b3be38d2602e22aa34404d17e43f32fab7a6392db4b690a3dca5273c6b418a",
+        "regex_extractor/readers.py": "f8320508d2dbe898e6c98d16bcdce68f4f08c9d6dd1b1bdcae8b2ad245f3a5d9",
+        "regex_extractor/sampling.py": "f5f9e9d813223c7b327cc87e8cdda92dfaac3c84930d9f25277001c5a0f1a688",
+        "regex_extractor/schema.py": "381ca21aa33189bea57686030806a08b0bb96149b11bba82d39850aff16bc73f",
+        "regex_extractor/README.md": "5a61a243080e3a3817701ceb6edd8b5466ca719ac12d986cfd97225a84e5f261"
+      },
+      "external": {
+        "frame_manifest": "evaluation/manifests/regex_frozen_2026-10-13.json"
+      },
+      "final_dev_run": "results/regex/dev_20261013T192044Z",
+      "dev_run_produced_by_frozen_code": true,
+      "matches_frame_manifest": true
+    },
+    "M1": {
+      "name": "ChemDataExtractor thermoelectric parsers (Sierepeklis & Cole 2022)",
+      "files": {
+        "chem_data_extractor/__init__.py": "fd3d0b33a854b040a34553890b253efa3163fd295d77868e7467778eccf0f0b2",
+        "chem_data_extractor/predict.py": "e7e21b1babadb43575f81e634048b768a65a4b411163e22e72c72a16ee877cda",
+        "chem_data_extractor/README.md": "fece41f9193d6e2fa2667d5739710640fdbe6a71afd30b8e12dd775794f4a2dc"
+      },
+      "external": {
+        "thermoelectricsdb_commit": "78e5003b79f25679f2042407a74f7e88025b3da2",
+        "package_tarball": "chemdataextractor_thermoelectrics/chemdataextractor/dist/ChemDataExtractor-TE-2.0.0-te.tar.gz",
+        "package_tarball_sha256": "5cf7685bd9c81168a3f69fe2fba479a059a04ffc2378ccb758f2043f2a8d7ba9",
+        "python": "3.8.20",
+        "pandas": "1.5.3",
+        "environment_freeze": "evaluation/manifests/env/m1_cde38_freeze.txt"
+      },
+      "final_dev_run": "results/cde/dev_20261016T230248Z",
+      "dev_run_produced_by_frozen_code": true,
+      "environment_freeze_sha256": "b3cfaf93c15b69f12ffe155a9670e864b57facea08e296a8fb6fafcd4dc0579c"
+    },
+    "M2": {
+      "name": "PolymerNER (MaterialsBERT) + published rule-based linking",
+      "files": {
+        "materialsbert_extractor/__init__.py": "335e235212441694566fd7dd25519fe6aff00cf4f13c88f9af2e46b127ecc3ed",
+        "materialsbert_extractor/predict.py": "cdbca7424b17cb58404ff7432572ee954afd4b26897929c62b0473e88d6ab160",
+        "materialsbert_extractor/units.py": "80defc8cf4caf1c71d98f2e6308eebd6421f5ad43cb8572c63718082b2786731",
+        "materialsbert_extractor/property_metadata.json": "acf39c133f5cf44ee61f5d0b1200257e9907359dcee65ec2d1b0aca37281de0d",
+        "materialsbert_extractor/README.md": "a839e758420ab0473533641a4a4484cc2b8ed8ce938c90f0018f0902d4dcac2a",
+        "materialsbert_extractor/vendor/polymer_information_extraction/LICENSE": "e87283ae27fc902648c270874252074e85c86a428814edb81a0868f85fc48c71",
+        "materialsbert_extractor/vendor/polymer_information_extraction/NOTICE.md": "b2c32c9820c1afe67155b3c3183e2baa40f9573210dd3ac399b510db8ec417ac",
+        "materialsbert_extractor/vendor/polymer_information_extraction/README.MD": "6d2095d1b9e9f166677ef6f2994209ebe58ad3439174f9c11bcdab9cd82bdf86",
+        "materialsbert_extractor/vendor/polymer_information_extraction/base_classes.py": "ada659165396d9cd49014dda97098d6d4e6b4f62c1b0dbffe3406a8efab8594f",
+        "materialsbert_extractor/vendor/polymer_information_extraction/material_amount_extraction.py": "fe1f3b745d57385c560646f400f2587bd3851bf0ce8b1075214131872684f851",
+        "materialsbert_extractor/vendor/polymer_information_extraction/pre_processing.py": "b40c140c307be82e94e6fdb80a253a99fc4905be9f72c9ff5fbeeafbd7d20405",
+        "materialsbert_extractor/vendor/polymer_information_extraction/process_material_entities.py": "ffc3f00e5d0822deaf6b3e5d930c4ee8fd4060abc556889d447dfd22a0d486af",
+        "materialsbert_extractor/vendor/polymer_information_extraction/property_extraction.py": "e92bafaffd5f0751fa18aa7741b6069bfa96807de8810b5b60b7a184c3db30eb",
+        "materialsbert_extractor/vendor/polymer_information_extraction/record_extractor.py": "00b2c5cd34b0d430c039cbbaebc017dbe91817e235208c8951db517e67a82b18",
+        "materialsbert_extractor/vendor/polymer_information_extraction/utils.py": "afe5bc7ee36c594e8391053c293098dbfaa3cc28bf57cf5581b597e4ba5d6edf"
+      },
+      "external": {
+        "model": "pranav-s/PolymerNER",
+        "model_revision": "4f7bb8bd55724ec523e22d6c9793b59ab7e299d0",
+        "pipeline_commit": "d08f2d301fb74c680d8df9b3993d496b069fc6e9",
+        "python": "3.8.20",
+        "chemdataextractor": "1.3.0",
+        "torch": "2.2.2 (CPU)",
+        "transformers": "4.30.2",
+        "spacy": "3.7.5",
+        "en_core_web_sm": "3.7.1",
+        "environment_freeze": "evaluation/manifests/env/m2_m2env_freeze.txt"
+      },
+      "final_dev_run": "results/bert/dev_20261019T215941Z",
+      "dev_run_produced_by_frozen_code": true,
+      "environment_freeze_sha256": "a7de25db1e3d2601ae0f10b560893cb3ba985653638ca9b1fc954dd3458cebc3"
+    },
+    "M3": {
+      "name": "Claude, single prompt",
+      "files": {
+        "claude_data_extractor/__init__.py": "58948ccb0955d0542bac4af79787dc88940e54c7bb347f67deab25aa8aa96375",
+        "claude_data_extractor/predict.py": "cebd4dd595f59292599a94a87ffd0353f26fbfa1fabdd7f5af8d57127fced37c",
+        "claude_data_extractor/requirements.txt": "3192fb0c9f9c6caf5ad99eb039c19f8d3463f4533d747e859476cffadcb15d02",
+        "claude_data_extractor/README.md": "754db070a63cad9b75e6c6e6a348c2d7c0f3fcb689d6b31342db782552df81ba",
+        "evaluation/task_spec.md": "b6e636edbb3878b88036046aa1b5f5da53d0c763357161574ffb2211ef09ff1f"
+      },
+      "external": {
+        "model": "claude-opus-5-5",
+        "temperature": "not sent (model default)",
+        "max_tokens": 16000,
+        "runner": "Anthropic Messages API, structured outputs"
+      },
+      "final_dev_run": "results/claude/dev_20261014T223049Z",
+      "dev_run_produced_by_frozen_code": true
+    },
+    "M4": {
+      "name": "Claude agent (pdf-extractor)",
+      "files": {
+        "agent_extractor/__init__.py": "e3b0c44298fc1c149afbf4c8996fb92427ae41e4649b934ca495991b7852b855",
+        "agent_extractor/pdf-extractor.md": "491684707355cd7418769778c9a134476b326a1c4151b7c9bab30296607ab23d",
+        "agent_extractor/run.py": "7800ae0526e9bfa8983d18dcc3dd5a4e1062ed562d94d29047061d1fa5f960c9",
+        "agent_extractor/README.md": "44fd1f3a2758e0eb7336ac2bbfb7436dd37abcb3b79101a50988787d8f8cf92c",
+        "evaluation/task_spec.md": "b6e636edbb3878b88036046aa1b5f5da53d0c763357161574ffb2211ef09ff1f"
+      },
+      "external": {
+        "runner": "Claude Code 2.1.296 (WinGet; auto-update off)",
+        "model": "Opus 5.5 (claude-opus-5-5)",
+        "account": "Claude Pro subscription",
+        "batch_size": 10,
+        "request_procedure": "one invocation per batch, request text exactly as printed by run.py prepare; the main session must not review, change or rerun outputs"
+      },
+      "final_dev_run": "results/agent/dev_20261013T232821Z",
+      "dev_run_produced_by_frozen_code": true,
+      "installed_agent_matches_source": true
+    }
+  },
+  "scoring": {
+    "evaluation/schema.py": "2d6389e9641885c888ee0fef80859692da2b67cd6e63a52cbf9c663a2ae75d4b",
+    "evaluation/score.py": "814c8a6e5b078bc65792537f1320f52a38d9d926f4b2a0ff5466b107448d62fc",
+    "evaluation/compare.py": "7e992aa1b8412d867dea8ec6fc91c7e786d503e47ebe72cef4099bdfda0ac092",
+    "evaluation/check_gold.py": "4603ebc7326fe412e0690faa6dfd9d89a7a1d84925d242eebd83fb0219ff809c",
+    "evaluation/diagnose.py": "e2b81e7f50cff3c62d9fdb7f27fb0a47c6eacdafd33c52190f441091715cb321",
+    "evaluation/sample.py": "6e457bd04502f74b8f6125f17917f733628b37600ade4c3a5f233097ba22fdb1",
+    "evaluation/PROTOCOL.md": "44678932f12320677eda07dbcb81ecdec8a012333a6c280510630fa42eb42758",
+    "evaluation/task_spec.md": "b6e636edbb3878b88036046aa1b5f5da53d0c763357161574ffb2211ef09ff1f"
+  },
+  "problems_at_freeze": []
+}

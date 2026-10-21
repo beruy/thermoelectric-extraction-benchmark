@@ -1,0 +1,98 @@
+{
+  "batch": "batch_011",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "T0101",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": 2, "value_max": null, "material": "Te-doped samples", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "At 300 K, the Seebeck coefficient has a small positive value (p-type) ~2 μV K-1 for all the Te-doped samples", "raw_value": "~2", "raw_unit": "μV K-1", "conversion": null}},
+        {"property": "S_uVK", "value": -107, "value_max": null, "material": "FeSb1.84Te0.16 HP 600", "T_K": 90, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "The largest peak value for the Seebeck coefficient among our samples is ~ -107 μV K-1 for sample FeSb1.84Te0.16 HP 600", "raw_value": "~ -107", "raw_unit": "μV K-1", "conversion": null}},
+        {"property": "S_uVK", "value": -400, "value_max": null, "material": "FeSb1.84Te0.16 single crystals", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "(~ -400 μVK-1) for FeSb1.84Te0.16 single crystals", "raw_value": "~ -400", "raw_unit": "μVK-1", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0102",
+      "status": "ok",
+      "records": [],
+      "note": "Carrier concentrations only as ranges with broken exponents (1021-1022, 2-4 1021); not recorded."
+    },
+    {
+      "sample_id": "T0103",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 40.10, "value_max": null, "material": "n-LiZnSb", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "The PF values at optimal doping levels are 40.10, 85.73, and 141.32 μW cm^-1 K^-2", "raw_value": "40.10", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "PF", "value": 85.73, "value_max": null, "material": "n-LiZnSb", "T_K": 500, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "The PF values at optimal doping levels are 40.10, 85.73, and 141.32 μW cm^-1 K^-2", "raw_value": "85.73", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "PF", "value": 141.32, "value_max": null, "material": "n-LiZnSb", "T_K": 700, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "The PF values at optimal doping levels are 40.10, 85.73, and 141.32 μW cm^-1 K^-2", "raw_value": "141.32", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "doping", "value": null, "value_max": null, "material": "n-LiZnSb", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "0.046 e/uc", "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The optimal doping levels for n-LiZnSb are 0.046, 0.076, and 0.134 e/uc at 300, 500, and 700 K", "raw_value": "0.046", "raw_unit": "e/uc", "conversion": null}},
+        {"property": "doping", "value": null, "value_max": null, "material": "n-LiZnSb", "T_K": 500, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "0.076 e/uc", "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The optimal doping levels for n-LiZnSb are 0.046, 0.076, and 0.134 e/uc at 300, 500, and 700 K", "raw_value": "0.076", "raw_unit": "e/uc", "conversion": null}},
+        {"property": "doping", "value": null, "value_max": null, "material": "n-LiZnSb", "T_K": 700, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "0.134 e/uc", "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The optimal doping levels for n-LiZnSb are 0.046, 0.076, and 0.134 e/uc at 300, 500, and 700 K", "raw_value": "0.134", "raw_unit": "e/uc", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0104",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": 300, "value_max": null, "material": "PbSe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "shows nearly constant Seebeck values ~ 300 μV/K above 600 K", "raw_value": "~ 300", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 200, "value_max": null, "material": "PbSe", "T_K": 900, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "the heavy hole band reaches ~ 200 μV/K for a population ~ 51020 cm-3 holes at 900 K", "raw_value": "~ 200", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 100, "value_max": null, "material": "PbSe", "T_K": 900, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "the light hole band shows ~100 μV/K for ~ 21020 cm-3 holes", "raw_value": "~100", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 250, "value_max": null, "material": "PbSe", "T_K": 1000, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "thermopower values as high as ~ 250 μV/K are expected at 1000 K", "raw_value": "~ 250", "raw_unit": "μV/K", "conversion": null}}
+      ],
+      "note": "Carrier concentrations with broken exponents (1.51020, 41020, 51020, 21020) not recorded."
+    },
+    {
+      "sample_id": "T0105",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 3.5, "value_max": null, "material": "quantum dot superlattices", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"], "evidence": {"quote": "3.5 in quantum dot superlattices [5]", "raw_value": "3.5", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 2.4, "value_max": null, "material": "bismuth telluride and antimonide superlattices", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "ambiguous_attribution"], "evidence": {"quote": "2.4 and 2.9 in bismuth telluride and antimonide superlattices", "raw_value": "2.4", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 2.9, "value_max": null, "material": "bismuth telluride and antimonide superlattices", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "ambiguous_attribution"], "evidence": {"quote": "2.4 and 2.9 in bismuth telluride and antimonide superlattices", "raw_value": "2.9", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 2.2, "value_max": null, "material": "antimony silver telluride materials", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"], "evidence": {"quote": "2.2 in antimony silver telluride materials [7]", "raw_value": "2.2", "raw_unit": null, "conversion": null}}
+      ],
+      "note": "Hypothetical ZT targets of 2 and 4 not recorded."
+    },
+    {
+      "sample_id": "T0106",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": 278, "value_max": null, "material": "TiCoSb0.85Sn0.15", "T_K": 773.15, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "which value was 278 μV/K at 500^∘C", "raw_value": "278", "raw_unit": "μV/K", "conversion": "500 °C + 273.15 = 773.15 K"}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0107",
+      "status": "ok",
+      "records": [
+        {"property": "kappa", "value": 2.57, "value_max": null, "material": "Mg2GeSe4", "T_K": 300, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "the calculated lattice thermal conductivity decreases from approximately 2.57 to 1.99 W/mK at 300 K", "raw_value": "2.57", "raw_unit": "W/mK", "conversion": null}},
+        {"property": "kappa", "value": 1.99, "value_max": null, "material": "Mg2GeSe4", "T_K": 300, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "the calculated lattice thermal conductivity decreases from approximately 2.57 to 1.99 W/mK at 300 K", "raw_value": "1.99", "raw_unit": "W/mK", "conversion": null}}
+      ],
+      "note": "2.57 is three-phonon, 1.99 includes four-phonon scattering."
+    },
+    {
+      "sample_id": "T0108",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 16, "value_max": null, "material": null, "T_K": 100, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "σxx = 0.16 Ω^-1cm^-1 at 100 K", "raw_value": "0.16", "raw_unit": "Ω^-1cm^-1", "conversion": "x100 (S/cm to S/m)"}},
+        {"property": "doping", "value": 1.4e15, "value_max": null, "material": null, "T_K": 100, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": "hole doping", "carrier_conc_cm3": 1.4e15, "flags": [], "evidence": {"quote": "1.4 × 10^15 cm^-3 doping level", "raw_value": "1.4 × 10^15", "raw_unit": "cm^-3", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0109",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 230000, "value_max": null, "material": "Ag2Te", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "ambiguous_attribution"], "evidence": {"quote": "σ≈ 2300 S cm^-1 near 300 K", "raw_value": "2300", "raw_unit": "S cm^-1", "conversion": "x100 (S/cm to S/m)"}},
+        {"property": "doping", "value": 3.4e18, "value_max": null, "material": "Ag2Te", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "n-type", "carrier_conc_cm3": 3.4e18, "flags": ["ambiguous_attribution"], "evidence": {"quote": "The carrier concentration in all these samples is around 3.4± 0.1× 10^18 cm^-3", "raw_value": "3.4± 0.1× 10^18", "raw_unit": "cm^-3", "conversion": null}}
+      ],
+      "note": "Milled samples assumed to be Ag2Te (paragraph names Ag2Te for the SSM comparison sample)."
+    },
+    {
+      "sample_id": "T0110",
+      "status": "ok",
+      "records": [],
+      "note": null
+    }
+  ]
+}

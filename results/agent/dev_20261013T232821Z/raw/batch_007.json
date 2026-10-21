@@ -1,0 +1,51 @@
+{
+  "batch": "batch_007",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "D0061",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": -18, "value_max": null, "material": "Co/Cu multilayers", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "ambiguous_attribution"], "evidence": {"quote": "SP = –18 μV/K", "raw_value": "–18", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": -14, "value_max": null, "material": "Co/Cu multilayers", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "ambiguous_attribution"], "evidence": {"quote": "SAP = –14 μV/K", "raw_value": "–14", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": -30.8, "value_max": null, "material": "Co", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"], "evidence": {"quote": "SCo = –30.8 μV/K [26]", "raw_value": "–30.8", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 1.84, "value_max": null, "material": "Cu", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"], "evidence": {"quote": "SCu = 1.84 μV/K [27]", "raw_value": "1.84", "raw_unit": "μV/K", "conversion": null}}
+      ],
+      "note": null
+    },
+    {"sample_id": "D0062", "status": "ok", "records": [], "note": null},
+    {
+      "sample_id": "D0063",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": 1e21, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "polycrystals", "carrier_conc_cm3": 1e21, "flags": ["approximate_value", "temperature_unspecified"], "evidence": {"quote": "around 10^21 cm^-3 for polycrystals", "raw_value": "10^21", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e20, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "single crystals", "carrier_conc_cm3": 1e20, "flags": ["approximate_value", "temperature_unspecified"], "evidence": {"quote": "around 10^20 cm^-3 for single crystals", "raw_value": "10^20", "raw_unit": "cm^-3", "conversion": null}}
+      ],
+      "note": "Experimental range 10^17-10^18 cm^-3 not recorded (range)."
+    },
+    {"sample_id": "D0064", "status": "ok", "records": [], "note": "PF values given with unit 'W m-1 K-1', which is not a power-factor unit; not converted or recorded."},
+    {
+      "sample_id": "D0065",
+      "status": "ok",
+      "records": [
+        {"property": "kappa", "value": 135, "value_max": null, "material": "WC", "T_K": 300, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "κph of WC is relatively higher (~135 W·m-1·K-1 at 300 K)", "raw_value": "~135", "raw_unit": "W·m-1·K-1", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0066",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 100000, "value_max": null, "material": "Cu2Se", "T_K": 323, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "derived_from_resistivity", "partial_evidence"], "evidence": {"quote": "Cu2Se has the ρ ~10 μΩ⋅m and 30 μΩ⋅m at T ~323 K and 600 K", "raw_value": "~10", "raw_unit": "μΩ⋅m", "conversion": "sigma = 1/(10e-6 Ω m) = 1.0e5 S/m"}},
+        {"property": "sigma", "value": 33333.33, "value_max": null, "material": "Cu2Se", "T_K": 600, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "derived_from_resistivity", "partial_evidence"], "evidence": {"quote": "Cu2Se has the ρ ~10 μΩ⋅m and 30 μΩ⋅m at T ~323 K and 600 K", "raw_value": "30", "raw_unit": "μΩ⋅m", "conversion": "sigma = 1/(30e-6 Ω m) = 3.333e4 S/m"}},
+        {"property": "sigma", "value": 125000, "value_max": null, "material": "CuAgSe", "T_K": 323, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "derived_from_resistivity", "partial_evidence"], "evidence": {"quote": "CuAgSe has ρ ~ 8 μΩ⋅m and ~58 μΩ⋅m at the two temperatures", "raw_value": "~ 8", "raw_unit": "μΩ⋅m", "conversion": "sigma = 1/(8e-6 Ω m) = 1.25e5 S/m"}},
+        {"property": "sigma", "value": 17241.38, "value_max": null, "material": "CuAgSe", "T_K": 600, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "derived_from_resistivity", "partial_evidence"], "evidence": {"quote": "CuAgSe has ρ ~ 8 μΩ⋅m and ~58 μΩ⋅m at the two temperatures", "raw_value": "~58", "raw_unit": "μΩ⋅m", "conversion": "sigma = 1/(58e-6 Ω m) = 1.724e4 S/m"}}
+      ],
+      "note": null
+    },
+    {"sample_id": "D0067", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0068", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0069", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0070", "status": "ok", "records": [], "note": "Dataset statistics (histogram peak, mean, median) not recorded per rule 8."}
+  ]
+}

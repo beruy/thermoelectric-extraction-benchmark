@@ -1,0 +1,100 @@
+{
+  "audit": "resistivity / sigma decisions, dev gold v1",
+  "created_at": "2026-10-15T23:58:47+00:00",
+  "reason": "Gold v1 marks D0066 NONE with the note 'resistivity is outside the allowed codes', which contradicts PROTOCOL.md §5.2 (resistivity -> sigma when the unit is explicit). Found while comparing M0 and M3 on dev.",
+  "search": {
+    "file": "evaluation/data/dev/inputs.jsonl",
+    "case_insensitive": true,
+    "patterns": {
+      "resistiv": "resistiv",
+      "rho": "ρ|\\\\rho",
+      "Omega/ohm": "Ω|Ω|\\bohm",
+      "resistance": "resistance"
+    }
+  },
+  "candidates": [
+    "D0002",
+    "D0005",
+    "D0007",
+    "D0014",
+    "D0023",
+    "D0030",
+    "D0034",
+    "D0038",
+    "D0040",
+    "D0046",
+    "D0051",
+    "D0052",
+    "D0054",
+    "D0060",
+    "D0062",
+    "D0065",
+    "D0066",
+    "D0076",
+    "D0082",
+    "D0085",
+    "D0089",
+    "D0090",
+    "D0096",
+    "D0099"
+  ],
+  "n_candidates": 24,
+  "shuffle_seed": 20261016,
+  "order": [
+    "D0085",
+    "D0005",
+    "D0038",
+    "D0089",
+    "D0051",
+    "D0034",
+    "D0090",
+    "D0007",
+    "D0002",
+    "D0099",
+    "D0054",
+    "D0065",
+    "D0040",
+    "D0082",
+    "D0052",
+    "D0014",
+    "D0030",
+    "D0062",
+    "D0046",
+    "D0096",
+    "D0060",
+    "D0066",
+    "D0076",
+    "D0023"
+  ],
+  "gold_v1_sha256": "9fe5923aed06b85ff59c216c527a98f43827bd2ac5d43071532dedacdca9bbe4",
+  "blinding": {
+    "method_outputs_seen_before_audit": [
+      "D0066",
+      "D0076"
+    ],
+    "note": "The annotator (BU) and Claude saw M3 (and M0) predictions for D0066 and D0076 during the M0/M3 comparison. The other candidates are decided without method outputs; the audit is not fully blind and is reported as a protocol-consistency audit by the same annotator.",
+    "gold_v1_decisions_seen_before_audit": [
+      "D0076",
+      "D0082",
+      "D0085"
+    ],
+    "gold_v1_note": "On 2026-10-16 the annotator had gold_records.csv open in Google Sheets during the audit; the v1 rows of D0076, D0082 and D0085 (all NONE) were visible."
+  },
+  "annotator": "BU",
+  "pre_annotation": "none (no LLM proposals in the audit sheet)",
+  "rule_decisions": [
+    {
+      "date": "2026-10-16",
+      "by": "BU",
+      "trigger": "D0076",
+      "rule": "\"in the order of (about) X\" with an explicit unit is recorded as an approximate value, like ~X / about X."
+    }
+  ],
+  "completed": {
+    "date": "2026-10-19",
+    "decided": 24,
+    "result": "22 of 24 paragraphs agree with v1 (20 NO_SIGMA, D0002 and D0099 SIGMA with the same values); D0066 and D0076 changed",
+    "gold_version": "v1.1 (evaluation/manifests/dev_gold_v1_1_2026-10-19.json)",
+    "audit_sheet_sha256": "edf5c44877c2467efaf5b5b9a7d0dca42011882618b78f53fa097477174f7365"
+  }
+}

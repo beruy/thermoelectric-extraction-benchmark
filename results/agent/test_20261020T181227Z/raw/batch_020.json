@@ -1,0 +1,39 @@
+{
+  "batch": "batch_020",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0191", "status": "ok", "records": [], "note": "Table caption, no values."},
+    {"sample_id": "T0192", "status": "ok", "records": [
+      {"property": "kappa", "value": 10, "value_max": null, "material": "ZrNiSn", "T_K": null, "kappa_type": "lattice", "qualifier": null, "origin": "cited", "context": null, "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "ZrNiSn exhibits a relatively low kL of 10 Wm ^-1 K ^-1 [22] at room temperature", "raw_value": "10", "raw_unit": "Wm ^-1 K ^-1", "conversion": null}},
+      {"property": "kappa", "value": 2.5, "value_max": null, "material": "PbTe", "T_K": 300, "kappa_type": "lattice", "qualifier": null, "origin": "cited", "context": null, "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "PbTe which has an intrinsic kL of just 2.5 Wm ^-1 K ^-1 at 300 K [15, 10]", "raw_value": "2.5", "raw_unit": "Wm ^-1 K ^-1", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "T0193", "status": "ok", "records": [], "note": "Figure caption, no target values."},
+    {"sample_id": "T0194", "status": "ok", "records": [
+      {"property": "S_uVK", "value": 35, "value_max": null, "material": "ScN", "T_K": 600, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "At 600 K the value of |S| for the reference ScN is 35 μV.K-1", "raw_value": "35", "raw_unit": "μV.K-1", "conversion": null}},
+      {"property": "S_uVK", "value": 30, "value_max": 85, "material": "ScN", "T_K": 600, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "ambiguous_attribution"],
+       "evidence": {"quote": "the Seebeck coefficient absolute values in the high damage regime increases from 30 to 85 μV.K-1 at 600 K", "raw_value": "30 to 85", "raw_unit": "μV.K-1", "conversion": null}},
+      {"property": "S_uVK", "value": 28, "value_max": null, "material": "ScN", "T_K": 600, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "28 μV.K-1 at 600 K", "raw_value": "28", "raw_unit": "μV.K-1", "conversion": null}}
+    ], "note": "Values are absolute |S|; implanted and annealed ScN samples."},
+    {"sample_id": "T0195", "status": "ok", "records": [], "note": "10^19 cm^-3 is a threshold bound, not recorded."},
+    {"sample_id": "T0196", "status": "ok", "records": [
+      {"property": "kappa", "value": 270, "value_max": null, "material": "crystalline silicon", "T_K": null, "kappa_type": "unspecified", "qualifier": null, "origin": "reported", "context": null, "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "270 W/mK for crystalline silicon", "raw_value": "270", "raw_unit": "W/mK", "conversion": null}}
+    ], "note": "Same 270 W/mK value repeated for bulk silicon; one record."},
+    {"sample_id": "T0197", "status": "ok", "records": [], "note": "Power factor of 1 Wm-1K-1 given with a non-power-factor unit; not recorded."},
+    {"sample_id": "T0198", "status": "ok", "records": [
+      {"property": "PF", "value": 85, "value_max": null, "material": "few layer MoS2 nanosheet", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "High thermoelectric power factor of the value of 8.5 mW m-1K-2 has been experimentally observed in few layer MoS2 nanosheet", "raw_value": "8.5", "raw_unit": "mW m-1K-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}}
+    ], "note": null},
+    {"sample_id": "T0199", "status": "ok", "records": [
+      {"property": "doping", "value": 1e15, "value_max": null, "material": "Si", "T_K": 100, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "hole doping of 2× 10^-8 e/atom", "carrier_conc_cm3": 1e15, "flags": [],
+       "evidence": {"quote": "hole doping of 2× 10^-8 e/atom (N=1× 10^15 cm^-3)\nat a temperature of 100 K", "raw_value": "1× 10^15", "raw_unit": "cm^-3", "conversion": null}},
+      {"property": "doping", "value": 2e21, "value_max": null, "material": "Si", "T_K": 900, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "hole doping of 0.04 e/atom", "carrier_conc_cm3": 2e21, "flags": [],
+       "evidence": {"quote": "hole doping of 0.04 e/atom (N=2× 10^21 cm^-3)\nat a temperature of 900 K", "raw_value": "2× 10^21", "raw_unit": "cm^-3", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "T0200", "status": "ok", "records": [], "note": "Figure caption, no numeric target values."}
+  ]
+}

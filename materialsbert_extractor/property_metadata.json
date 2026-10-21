@@ -1,0 +1,8 @@
+{
+  "ZT": {"property_list": ["ZT", "figure of merit", "thermoelectric figure of merit", "dimensionless figure of merit"], "unit_list": [""]},
+  "S_uVK": {"property_list": ["Seebeck coefficient", "thermopower", "thermoelectric power", "S"], "unit_list": ["μV K^{-1}"]},
+  "kappa": {"property_list": ["thermal conductivity", "lattice thermal conductivity", "electronic thermal conductivity", "κ", "κ_L"], "unit_list": ["W m^{-1} K^{-1}"]},
+  "sigma": {"property_list": ["electrical conductivity", "conductivity", "σ", "electrical resistivity", "resistivity", "ρ"], "unit_list": ["S m^{-1}"]},
+  "PF": {"property_list": ["power factor", "PF"], "unit_list": ["μW cm^{-1} K^{-2}"]},
+  "doping": {"property_list": ["carrier concentration", "hole concentration", "electron concentration", "carrier density"], "unit_list": ["cm^{-3}"]}
+}

@@ -1,0 +1,37 @@
+{
+  "batch": "batch_002",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "D0011", "status": "ok", "records": [], "note": "Flattened table; no records per rule 7."},
+    {"sample_id": "D0012", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0013", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0014", "status": "ok", "records": [
+      {"property": "ZT", "value": 0.013, "value_max": null, "material": "Fe0.99Co0.01(Ga0.997Ge0.003)3", "T_K": 390, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "The largest figure of merit (ZT(390 K)Fe0.99Co0.01(Ga0.997Ge0.003)3 = 1.3 × 10-2)", "raw_value": "1.3 × 10-2", "raw_unit": null, "conversion": "1.3 × 10^-2 = 0.013"}}
+    ], "note": null},
+    {"sample_id": "D0015", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0016", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0017", "status": "ok", "records": [
+      {"property": "kappa", "value": 2, "value_max": null, "material": null, "T_K": null, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"],
+       "evidence": {"quote": "typical κl values in Fig. 2(b) are around 2 W/m · K", "raw_value": "2", "raw_unit": "W/m · K", "conversion": null}},
+      {"property": "kappa", "value": 0.28, "value_max": null, "material": "Si0.3Ge0.54Sn0.16", "T_K": null, "kappa_type": "lattice", "qualifier": "min", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"],
+       "evidence": {"quote": "with an absolute minimum as low as 0.28 W/m · K, obtained for Si0.3Ge0.54Sn0.16", "raw_value": "0.28", "raw_unit": "W/m · K", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "D0018", "status": "ok", "records": [
+      {"property": "S_uVK", "value": 413, "value_max": null, "material": "2D Te film", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "Room temperature Seebeck coefficient, power factor and ZT value were measured to be 413 μV/K, 31.7 μW/cm∙K2 and 0.63, respectively, on a 31-nm-think 2D Te film", "raw_value": "413", "raw_unit": "μV/K", "conversion": null}},
+      {"property": "PF", "value": 31.7, "value_max": null, "material": "2D Te film", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "Room temperature Seebeck coefficient, power factor and ZT value were measured to be 413 μV/K, 31.7 μW/cm∙K2 and 0.63, respectively, on a 31-nm-think 2D Te film", "raw_value": "31.7", "raw_unit": "μW/cm∙K2", "conversion": null}},
+      {"property": "ZT", "value": 0.63, "value_max": null, "material": "2D Te film", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "Room temperature Seebeck coefficient, power factor and ZT value were measured to be 413 μV/K, 31.7 μW/cm∙K2 and 0.63, respectively, on a 31-nm-think 2D Te film", "raw_value": "0.63", "raw_unit": null, "conversion": null}}
+    ], "note": null},
+    {"sample_id": "D0019", "status": "ok", "records": [
+      {"property": "kappa", "value": 0.1, "value_max": 0.35, "material": "SixGe1-x-ySny", "T_K": null, "kappa_type": "electronic", "qualifier": "range", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "ambiguous_attribution"],
+       "evidence": {"quote": "κh values in the 0.1 — 0.35 W/m · K range", "raw_value": "0.1 — 0.35", "raw_unit": "W/m · K", "conversion": null}}
+    ], "note": "Optimal hole density given only as a range (4-10 x 10^18 cm^-3); not recorded per rule 5."},
+    {"sample_id": "D0020", "status": "ok", "records": [
+      {"property": "kappa", "value": 1.21, "value_max": null, "material": "phosphorene", "T_K": null, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"],
+       "evidence": {"quote": "lattice thermal conductivity of 1.21 Wm-1K-1", "raw_value": "1.21", "raw_unit": "Wm-1K-1", "conversion": null}}
+    ], "note": "ZT 'enhanced up to 1.78' is a bound; not recorded per rule 4."}
+  ]
+}

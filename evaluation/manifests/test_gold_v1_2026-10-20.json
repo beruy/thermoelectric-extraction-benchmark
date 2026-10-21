@@ -1,0 +1,32 @@
+{
+  "version": "test gold v1",
+  "recorded": "2026-10-20",
+  "file": "evaluation/data/test/gold/gold_records.csv",
+  "sha256": "e455adb7330fd4d440eed5b7b8e4e2a6f446141a73638a2ba7370ce0f7c54056",
+  "annotation_sheet_sha256": "5e5b211ca195d811ff73a1ae0c129afbc471fbfaa14e8bebeab951f06f30273b",
+  "annotation_sheet": "evaluation/data/test/annotation/annotation_sheet.csv (annotator's filled sheet)",
+  "rows": 441,
+  "paragraphs": 200,
+  "records": 346,
+  "by_property": {
+    "NONE": 95,
+    "S_uVK": 41,
+    "ZT": 55,
+    "PF": 47,
+    "kappa": 56,
+    "doping": 102,
+    "sigma": 45
+  },
+  "provenance": {
+    "pre_annotation": "GPT-6 Astra (OpenAI), medium setting, as stated by the annotator; not a Claude model",
+    "review": "every record reviewed against the paragraph text and corrected by one human annotator (BU)",
+    "raw_draft_kept": "not provided",
+    "deviation": "PROTOCOL.md §5.4 planned test annotation without pre-annotation; see §13 entry of 2026-10-20",
+    "note": "methods were frozen (methods_frozen_2026-10-19.json) before annotation; no method output was shown during annotation"
+  },
+  "checks": {
+    "check_gold": "OK (441 rows, 200 paragraphs)",
+    "unit_recomputation": "value recomputed from value_as_written/unit_as_written for 200 of 244 core records with a value parseable by materialsbert_extractor.units; 198 within 1 %; 2 differ only in sign (T0024 #2, T0040 #2), kept negative by annotator decision (sign stated separately in the paragraph)"
+  },
+  "sign_rule": "When a paragraph gives S as an absolute value and states its sign explicitly elsewhere in the same paragraph, S is recorded with that sign (annotator decision 2026-10-20)."
+}

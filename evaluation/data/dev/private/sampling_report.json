@@ -1,0 +1,84 @@
+{
+  "seed": 1009,
+  "n_requested": 100,
+  "n_drawn": 100,
+  "underfilled_strata": {},
+  "source_policy": "auto",
+  "design": "stratified simple random sampling without replacement; pi = n_h / N_h (exact)",
+  "scope_rule": "in_scope = RELEVANCE_RE matches (thermoelectric keyword) AND the paragraph contains at least one digit",
+  "corpus": "All paragraphs produced by the reader for one source per paper (HTML when available, else PDF). Text the reader does not produce (table cells, text lost in PDF parsing, references) is outside the corpus.",
+  "units": {
+    "total": 4898,
+    "in_scope": 1995,
+    "out_of_scope": 2903,
+    "out_of_scope_with_regex_hits": 20
+  },
+  "strata": {
+    "ZT": {
+      "in_scope": true,
+      "population": 264,
+      "allocated": 10,
+      "sampled": 10,
+      "mean_weight": 26.4
+    },
+    "S_uVK": {
+      "in_scope": true,
+      "population": 78,
+      "allocated": 10,
+      "sampled": 10,
+      "mean_weight": 7.8
+    },
+    "PF": {
+      "in_scope": true,
+      "population": 17,
+      "allocated": 10,
+      "sampled": 10,
+      "mean_weight": 1.7
+    },
+    "kappa": {
+      "in_scope": true,
+      "population": 57,
+      "allocated": 10,
+      "sampled": 10,
+      "mean_weight": 5.7
+    },
+    "sigma": {
+      "in_scope": true,
+      "population": 15,
+      "allocated": 10,
+      "sampled": 10,
+      "mean_weight": 1.5
+    },
+    "doping": {
+      "in_scope": true,
+      "population": 66,
+      "allocated": 10,
+      "sampled": 10,
+      "mean_weight": 6.6
+    },
+    "in_scope_no_hit": {
+      "in_scope": true,
+      "population": 1498,
+      "allocated": 20,
+      "sampled": 20,
+      "mean_weight": 74.89999999999999
+    },
+    "out_of_scope": {
+      "in_scope": false,
+      "population": 2903,
+      "allocated": 20,
+      "sampled": 20,
+      "mean_weight": 145.15
+    }
+  },
+  "control": {
+    "sampled": 20,
+    "upper95_share_if_zero_records": 0.13910834066826516,
+    "upper95_paragraphs_if_zero_records": 403.8315129599738
+  },
+  "papers_in_sample": 57,
+  "max_paragraphs_from_one_paper": 5,
+  "split": "dev",
+  "sample_id_prefix": "D",
+  "note": "Strata are defined by M0 (regex) hits; every paragraph of the split has a known non-zero inclusion probability."
+}

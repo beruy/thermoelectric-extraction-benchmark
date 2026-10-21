@@ -1,0 +1,83 @@
+{
+  "batch": "batch_008",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "D0071",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 0.4, "value_max": 2.2, "material": "Sr2Nb2O7", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"], "evidence": {"quote": "We predicted a monotonic ZT between 0.4 and 2.2 between 300 and 1200 K under n -doping in the layered perovskite Sr2Nb2O7", "raw_value": "0.4 and 2.2", "raw_unit": null, "conversion": null}},
+        {"property": "S_uVK", "value": 220, "value_max": 320, "material": "Sr2Nb2O7", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "At optimal density the Seebeck thermopower coefficient is between 220 and 320 μV/K", "raw_value": "220 and 320", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 800, "value_max": null, "material": "Sr2Nb2O7", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "but can reach 800 μV/K at lower doping", "raw_value": "800", "raw_unit": "μV/K", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0072",
+      "status": "ok",
+      "records": [],
+      "note": "Figure caption; only device temperatures, no property values."
+    },
+    {
+      "sample_id": "D0073",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 200, "value_max": 800, "material": "monolayer Cr X", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "the exceptional PF in monolayer Cr X within 0.02 – 0.08 W/m.K^2", "raw_value": "0.02 – 0.08", "raw_unit": "W/m.K^2", "conversion": "1 W m-1 K-2 = 1e4 μW cm-1 K-2"}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0074",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 0.4, "value_max": null, "material": "Sr2Nb2O7", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "from around 0.4 at room temperature to 2.4 at 1250 K", "raw_value": "0.4", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 2.4, "value_max": null, "material": "Sr2Nb2O7", "T_K": 1250, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "from around 0.4 at room temperature to 2.4 at 1250 K", "raw_value": "2.4", "raw_unit": null, "conversion": null}},
+        {"property": "doping", "value": 2e20, "value_max": null, "material": "Sr2Nb2O7", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": 2e20, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "at an optimal carrier density around 2 × 10^20 cm^-3", "raw_value": "2 × 10^20", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "S_uVK", "value": 250, "value_max": 300, "material": "Sr2Nb2O7", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "The Seebeck coefficient is about 250 to 300 μV/K at optimal doping", "raw_value": "250 to 300", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 800, "value_max": null, "material": "Sr2Nb2O7", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "reaches 800 μV/K at lower doping", "raw_value": "800", "raw_unit": "μV/K", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0075",
+      "status": "ok",
+      "records": [],
+      "note": "Structural refinement; no thermoelectric values."
+    },
+    {
+      "sample_id": "D0076",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 100, "value_max": null, "material": "TiS2", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity", "approximate_value", "partial_evidence"], "evidence": {"quote": "The metal-like temperature dependence of ρc in the order of about 1 Ω cm is quite unusual.", "raw_value": "1", "raw_unit": "Ω cm", "conversion": "sigma = 1/rho; 1 (Ω cm)^-1 = 100 S/m"}}
+      ],
+      "note": "Out-of-plane (c-axis) resistivity."
+    },
+    {
+      "sample_id": "D0077",
+      "status": "ok",
+      "records": [],
+      "note": "Non-thermoelectric text (friction coefficients)."
+    },
+    {
+      "sample_id": "D0078",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": 170, "value_max": null, "material": "SrNb0.2Ti0.8O3/SrTiO3 (001)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified", "partial_evidence"], "evidence": {"quote": "the 2.2 μm thick film maintains SFilm approaching to be ~170 μVK-1", "raw_value": "~170", "raw_unit": "μVK-1", "conversion": null}},
+        {"property": "S_uVK", "value": 290, "value_max": null, "material": "SrNb0.2Ti0.8O3/SrTiO3 (001)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["ambiguous_attribution", "temperature_unspecified"], "evidence": {"quote": "SNear-Surf.= 290 ± 18 μVK-1", "raw_value": "290 ± 18", "raw_unit": "μVK-1", "conversion": null}}
+      ],
+      "note": "Changes of ~200 and ~400 μVK-1 are differences, not recorded."
+    },
+    {
+      "sample_id": "D0079",
+      "status": "ok",
+      "records": [],
+      "note": "Figure caption on dielectric function; no values."
+    },
+    {
+      "sample_id": "D0080",
+      "status": "ok",
+      "records": [],
+      "note": "Figure caption; no stated values."
+    }
+  ]
+}

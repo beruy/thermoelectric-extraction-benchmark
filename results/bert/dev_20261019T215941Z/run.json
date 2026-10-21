@@ -1,0 +1,65 @@
+{
+  "method_id": "M2",
+  "method_name": "PolymerNER (MaterialsBERT) + published rule-based linking",
+  "run_id": "dev_20261019T215941Z",
+  "split": "dev",
+  "code_version": {
+    "predict_sha256": "cdbca7424b17cb58404ff7432572ee954afd4b26897929c62b0473e88d6ab160",
+    "units_sha256": "80defc8cf4caf1c71d98f2e6308eebd6421f5ad43cb8572c63718082b2786731",
+    "property_metadata_sha256": "acf39c133f5cf44ee61f5d0b1200257e9907359dcee65ec2d1b0aca37281de0d",
+    "vendor_sha256": "deb8741b26b5888b6c9c66ab6373ec9d370103ad6eb1064ae25d9c4d4bfbf509",
+    "pipeline_commit": "d08f2d301fb74c680d8df9b3993d496b069fc6e9"
+  },
+  "config": {
+    "max_tokens_per_chunk": 510,
+    "polymer_filter": false,
+    "limit": null
+  },
+  "model_id": "pranav-s/PolymerNER",
+  "model_params": {
+    "revision": "4f7bb8bd55724ec523e22d6c9793b59ab7e299d0",
+    "aggregation_strategy": "simple",
+    "torch": "2.2.2+cpu",
+    "transformers": "4.30.2"
+  },
+  "input_file": "evaluation/data/dev/inputs.jsonl",
+  "input_sha256": "938a3572a42175cc52edb29165b63017a4f1ce593e25ecc2e25f91a639dc4e0c",
+  "started_at": "2026-10-19T21:59:47+00:00",
+  "finished_at": "2026-10-19T22:01:54+00:00",
+  "wall_seconds": 127.1,
+  "n_paragraphs": 100,
+  "n_ok": 100,
+  "n_failed": 0,
+  "n_predictions": 60,
+  "n_invalid_predictions": 0,
+  "n_linked_records": 95,
+  "dropped_by_mapping": {
+    "property name not in dictionary": 24,
+    "no numeric value": 2,
+    "ZT with a unit": 4,
+    "no unit": 3
+  },
+  "chunking": {
+    "chunks": 105,
+    "overlong_sentences": 0,
+    "chunks_over_limit": 0
+  },
+  "n_model_calls": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "cost_usd": 0.0,
+  "price_table": null,
+  "hardware": {
+    "python": "3.8.20",
+    "machine": "x86_64",
+    "system": "Linux"
+  },
+  "capabilities": [
+    "ZT",
+    "S_uVK",
+    "kappa",
+    "sigma",
+    "PF",
+    "doping"
+  ]
+}

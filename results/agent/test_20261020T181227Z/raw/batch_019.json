@@ -1,0 +1,160 @@
+{
+  "batch": "batch_019",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "T0181",
+      "status": "ok",
+      "records": [
+        {
+          "property": "PF",
+          "value": 140,
+          "value_max": null,
+          "material": "single crystalline CVD diamond",
+          "T_K": null,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": null,
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "At optimum carrier concentration, the power factor of this material amounts to 14 mW m-1 K-2 at room temperature.", "raw_value": "14", "raw_unit": "mW m-1 K-2", "conversion": "1 mW m-1 K-2 = 10 uW cm-1 K-2"}
+        }
+      ],
+      "note": "Theoretical Jonker-analysis constants (-86.2 and 172.3 uV K-1) are not material values; not recorded."
+    },
+    {
+      "sample_id": "T0182",
+      "status": "ok",
+      "records": [],
+      "note": "Only a bound on sigma (< 2.4x10^4 S m-1); not recorded."
+    },
+    {
+      "sample_id": "T0183",
+      "status": "ok",
+      "records": [
+        {
+          "property": "PF",
+          "value": 8.94,
+          "value_max": null,
+          "material": "TlAgI2",
+          "T_K": 300,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "8.94 μW cm^-1 K^-2 at 300 K in the z -direction at a hole concentration (nh) of 10^21 cm^-3", "raw_value": "8.94", "raw_unit": "μW cm^-1 K^-2", "conversion": null}
+        },
+        {
+          "property": "doping",
+          "value": 1e21,
+          "value_max": null,
+          "material": "TlAgI2",
+          "T_K": null,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": "hole concentration (p-type)",
+          "carrier_conc_cm3": 1e21,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "at a hole concentration (nh) of 10^21 cm^-3", "raw_value": "10^21", "raw_unit": "cm^-3", "conversion": null}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0184",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0185",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0186",
+      "status": "ok",
+      "records": [
+        {
+          "property": "ZT",
+          "value": 0.19,
+          "value_max": null,
+          "material": "parent sample (0% SiC)",
+          "T_K": 1300,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": [],
+          "evidence": {"quote": "the parent sample (0% SiC) has somewhat poor thermoelectric performance (ZT = 0.19 at 1,300 K)", "raw_value": "0.19", "raw_unit": null, "conversion": null}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0187",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0188",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0189",
+      "status": "ok",
+      "records": [
+        {
+          "property": "kappa",
+          "value": 2.1,
+          "value_max": null,
+          "material": "(CoCuNiFeZn)1-xGaxWO4",
+          "T_K": 300,
+          "kappa_type": "total",
+          "qualifier": null,
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "Thermal conductivity in high-entropy samples (κ~ 2.1 W/m·K @ 300 K)", "raw_value": "2.1", "raw_unit": "W/m·K", "conversion": null}
+        },
+        {
+          "property": "kappa",
+          "value": 11.5,
+          "value_max": null,
+          "material": "MgWO4",
+          "T_K": 300,
+          "kappa_type": "total",
+          "qualifier": null,
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value"],
+          "evidence": {"quote": "MgWO4 (κ~ 11.5 W/m·K @ 300 K)", "raw_value": "11.5", "raw_unit": "W/m·K", "conversion": null}
+        }
+      ],
+      "note": "Unclear whether the MgWO4 reference value is from this work or literature."
+    },
+    {
+      "sample_id": "T0190",
+      "status": "ok",
+      "records": [],
+      "note": null
+    }
+  ]
+}

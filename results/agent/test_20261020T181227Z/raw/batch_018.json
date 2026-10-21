@@ -1,0 +1,52 @@
+{
+  "batch": "batch_018",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0171", "status": "ok", "records": [], "note": null},
+    {
+      "sample_id": "T0172",
+      "status": "ok",
+      "records": [
+        {
+          "property": "doping",
+          "value": 1e19,
+          "value_max": null,
+          "material": "Cd3As2",
+          "T_K": null,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "cited",
+          "context": "experimental",
+          "doping_text": "n-type, electron carrier concentration",
+          "carrier_conc_cm3": 1e19,
+          "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "n-type material with an electron carrier concentration of about n=1×1019 cm-3", "raw_value": "1×1019", "raw_unit": "cm-3", "conversion": "x10 prefix exponent restored: 1×10^19 cm-3"}
+        },
+        {
+          "property": "sigma",
+          "value": 6700,
+          "value_max": null,
+          "material": "Cd3As2",
+          "T_K": 300,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "cited",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "the experimental electrical conductivity is about 67 S/cm at 300 K", "raw_value": "67", "raw_unit": "S/cm", "conversion": "1 S/cm = 100 S/m"}
+        }
+      ],
+      "note": null
+    },
+    {"sample_id": "T0173", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0174", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0175", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0176", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0177", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0178", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0179", "status": "ok", "records": [], "note": "zT up to 1.8 is a bound; not recorded."},
+    {"sample_id": "T0180", "status": "ok", "records": [], "note": null}
+  ]
+}

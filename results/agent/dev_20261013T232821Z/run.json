@@ -1,0 +1,62 @@
+{
+  "method_id": "M4",
+  "method_name": "Claude agent (pdf-extractor, blind paragraph batches)",
+  "run_id": "dev_20261013T232821Z",
+  "split": "dev",
+  "code_version": {
+    "agent_sha256": "491684707355cd7418769778c9a134476b326a1c4151b7c9bab30296607ab23d",
+    "task_spec_sha256": "b6e636edbb3878b88036046aa1b5f5da53d0c763357161574ffb2211ef09ff1f",
+    "run_py_sha256": "7800ae0526e9bfa8983d18dcc3dd5a4e1062ed562d94d29047061d1fa5f960c9",
+    "agent_unchanged_since_prepare": true
+  },
+  "config": {
+    "batch_size": 10,
+    "raw_files": {
+      "batch_001": "batch_001.json",
+      "batch_002": "batch_002.json",
+      "batch_003": "batch_003.json",
+      "batch_004": "batch_004.json",
+      "batch_005": "batch_005.json",
+      "batch_006": "batch_006.json",
+      "batch_007": "batch_007.json",
+      "batch_008": "batch_008.json",
+      "batch_009": "batch_009.json",
+      "batch_010": "batch_010.json"
+    }
+  },
+  "model_id": "claude-opus-5-5",
+  "model_params": {
+    "runner": "Claude Code subagent",
+    "temperature": null
+  },
+  "input_file": "evaluation/data/dev/inputs.jsonl",
+  "input_sha256": "938a3572a42175cc52edb29165b63017a4f1ce593e25ecc2e25f91a639dc4e0c",
+  "started_at": "2026-10-13T23:28:21+00:00",
+  "finished_at": "2026-10-16T17:00:11+00:00",
+  "wall_seconds": null,
+  "n_paragraphs": 100,
+  "n_ok": 100,
+  "n_failed": 0,
+  "n_predictions": 139,
+  "n_invalid_predictions": 0,
+  "n_model_calls": 10,
+  "input_tokens": null,
+  "output_tokens": null,
+  "cost_usd": null,
+  "price_table": null,
+  "hardware": {
+    "python": "3.14.5",
+    "machine": "AMD64",
+    "system": "Windows"
+  },
+  "capabilities": [
+    "ZT",
+    "S_uVK",
+    "kappa",
+    "sigma",
+    "PF",
+    "doping"
+  ],
+  "collection_problems": [],
+  "measurement_note": "n_model_calls counts agent invocations (one per batch). Tokens and cost are entered from the Claude Code session if available, else null; wall time is not measured for interactive runs."
+}

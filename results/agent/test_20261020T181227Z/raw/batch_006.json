@@ -1,0 +1,44 @@
+{
+  "batch": "batch_006",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "T0051",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 2.57, "value_max": null, "material": "AZGS", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "TE material, with a ZT value of 2.57 at 800 K", "raw_value": "2.57", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 2.55, "value_max": null, "material": "AZGSe", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "AZGSe and AZTSe are found to exhibit promising TE behavior with ZT values of 2.55 and 2.53 at 800 K", "raw_value": "2.55", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 2.53, "value_max": null, "material": "AZTSe", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "AZGSe and AZTSe are found to exhibit promising TE behavior with ZT values of 2.55 and 2.53 at 800 K", "raw_value": "2.53", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 1.98, "value_max": null, "material": "AZTS", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "AZTS also emerges as a strong TE candidate, with computed ZT of 1.98 at 800 K", "raw_value": "1.98", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {"sample_id": "T0052", "status": "ok", "records": [], "note": "Figure caption without numeric property values."},
+    {"sample_id": "T0053", "status": "ok", "records": [], "note": "Universal upper limits of |S| and ZT are bounds, not material values."},
+    {
+      "sample_id": "T0054",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 3.8, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"], "evidence": {"quote": "0.38 mW m-1 K-2.", "raw_value": "0.38", "raw_unit": "mW m-1 K-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}},
+        {"property": "PF", "value": 1.4, "value_max": null, "material": "nanocrystalline foil B3", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"], "evidence": {"quote": "The nanocrystalline foil B3 achieves 0.14 mW m-1 K-2", "raw_value": "0.14", "raw_unit": "mW m-1 K-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}}
+      ],
+      "note": null
+    },
+    {"sample_id": "T0055", "status": "ok", "records": [], "note": "Reference entry."},
+    {"sample_id": "T0056", "status": "ok", "records": [], "note": "zT 'exceeds 1' is a bound; not recorded."},
+    {"sample_id": "T0057", "status": "ok", "records": [], "note": "No thermoelectric property values."},
+    {"sample_id": "T0058", "status": "ok", "records": [], "note": null},
+    {
+      "sample_id": "T0059",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 1000, "value_max": null, "material": "Cu2MnSnSe4", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": null, "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "excess Cu doping in Cu2MnSnSe4 is reported to increase the value of conductivity by 1 order of magnitude from 10^3 to 10^4 (S/m)", "raw_value": "10^3", "raw_unit": "S/m", "conversion": null}},
+        {"property": "sigma", "value": 10000, "value_max": null, "material": "Cu2MnSnSe4", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": null, "doping_text": "excess Cu doping", "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "excess Cu doping in Cu2MnSnSe4 is reported to increase the value of conductivity by 1 order of magnitude from 10^3 to 10^4 (S/m)", "raw_value": "10^4", "raw_unit": "S/m", "conversion": null}},
+        {"property": "sigma", "value": 5000, "value_max": null, "material": "AgPbBiSe3", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": null, "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "AgPbBiSe3[40], conductivity value increases from 5 × 10^3 to 2.5 × 10^4 (S/m)", "raw_value": "5 × 10^3", "raw_unit": "S/m", "conversion": null}},
+        {"property": "sigma", "value": 25000, "value_max": null, "material": "AgPbBiSe3", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": null, "doping_text": "chlorine (Cl) doping", "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "AgPbBiSe3[40], conductivity value increases from 5 × 10^3 to 2.5 × 10^4 (S/m)", "raw_value": "2.5 × 10^4", "raw_unit": "S/m", "conversion": null}}
+      ],
+      "note": "Doping concentration range 10^18-10^20 cm^-3 not recorded (range only)."
+    },
+    {"sample_id": "T0060", "status": "ok", "records": [], "note": null}
+  ]
+}

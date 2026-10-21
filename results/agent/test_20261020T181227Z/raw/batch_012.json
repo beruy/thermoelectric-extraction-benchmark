@@ -1,0 +1,94 @@
+{
+  "batch": "batch_012",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0111", "status": "ok", "records": [], "note": "Discussion of digitisation errors; no values."},
+    {"sample_id": "T0112", "status": "ok", "records": [], "note": "ZT~2 is stated as a bound ('outperform'); not recorded (rule 4)."},
+    {"sample_id": "T0113", "status": "ok", "records": [], "note": "'over 200 uV K^-1' is a bound; not recorded."},
+    {"sample_id": "T0114", "status": "ok", "records": [], "note": "ZT 'exceeding unity' is a bound; not recorded."},
+    {
+      "sample_id": "T0115",
+      "status": "ok",
+      "records": [
+        {
+          "property": "doping", "value": 7e20, "value_max": null, "material": "BaPdS2", "T_K": 700,
+          "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational",
+          "doping_text": "p-type (holes)", "carrier_conc_cm3": 7e20, "flags": ["partial_evidence"],
+          "evidence": {"quote": "for both BaPdS2 (for 7× 10^20 holes/cm^3)", "raw_value": "7× 10^20", "raw_unit": "holes/cm^3", "conversion": null}
+        },
+        {
+          "property": "doping", "value": 3e20, "value_max": null, "material": "SnSe", "T_K": 700,
+          "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational",
+          "doping_text": "p-type (holes)", "carrier_conc_cm3": 3e20, "flags": ["partial_evidence"],
+          "evidence": {"quote": "SnSe (for\n 3× 10^20 holes/cm^3)", "raw_value": "3× 10^20", "raw_unit": "holes/cm^3", "conversion": null}
+        },
+        {
+          "property": "doping", "value": 5.5e20, "value_max": null, "material": "BaPdS2", "T_K": 700,
+          "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational",
+          "doping_text": "n-type (electrons)", "carrier_conc_cm3": 5.5e20, "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "doping value of ~ 5.5× 10^20 electrons/cm^3", "raw_value": "5.5× 10^20", "raw_unit": "electrons/cm^3", "conversion": null}
+        }
+      ],
+      "note": "sigma S^2/tau values (W/(m K^2 s)) are not PF and are not recorded."
+    },
+    {"sample_id": "T0116", "status": "ok", "records": [], "note": "Not thermoelectric content."},
+    {
+      "sample_id": "T0117",
+      "status": "ok",
+      "records": [
+        {
+          "property": "ZT", "value": 2.2, "value_max": null, "material": "InP3 monolayer", "T_K": 300,
+          "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational",
+          "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+          "evidence": {"quote": "We obtained a large ZT of 2.2 at 300 K", "raw_value": "2.2", "raw_unit": null, "conversion": null}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0118",
+      "status": "ok",
+      "records": [
+        {
+          "property": "PF", "value": 27.7, "value_max": null, "material": "AGT", "T_K": 800,
+          "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational",
+          "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+          "evidence": {"quote": "The optimal S ^2σ value of AGT is 27.7 μW/cmK^2 at a hole doping of 5.35 × 10^20 cm^-3 at 800 K", "raw_value": "27.7", "raw_unit": "μW/cmK^2", "conversion": null}
+        },
+        {
+          "property": "doping", "value": 5.35e20, "value_max": null, "material": "AGT", "T_K": 800,
+          "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational",
+          "doping_text": "hole doping", "carrier_conc_cm3": 5.35e20, "flags": [],
+          "evidence": {"quote": "The optimal S ^2σ value of AGT is 27.7 μW/cmK^2 at a hole doping of 5.35 × 10^20 cm^-3", "raw_value": "5.35 × 10^20", "raw_unit": "cm^-3", "conversion": null}
+        },
+        {
+          "property": "PF", "value": 25, "value_max": null, "material": "CuGaTe2", "T_K": null,
+          "kappa_type": null, "qualifier": "max", "origin": "cited", "context": null,
+          "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+          "evidence": {"quote": "P.F. of 25 μW/cmK^2 at an optimal carrier concentration of 8.7 × 10^20 cm^-3 for CuGaTe2", "raw_value": "25", "raw_unit": "μW/cmK^2", "conversion": null}
+        },
+        {
+          "property": "doping", "value": 8.7e20, "value_max": null, "material": "CuGaTe2", "T_K": null,
+          "kappa_type": null, "qualifier": null, "origin": "cited", "context": null,
+          "doping_text": null, "carrier_conc_cm3": 8.7e20, "flags": [],
+          "evidence": {"quote": "optimal carrier concentration of 8.7 × 10^20 cm^-3 for CuGaTe2", "raw_value": "8.7 × 10^20", "raw_unit": "cm^-3", "conversion": null}
+        },
+        {
+          "property": "PF", "value": 13.53, "value_max": null, "material": "AIT", "T_K": 800,
+          "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational",
+          "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+          "evidence": {"quote": "AIT, with an optimal P.F. of 13.53 μW/cmK^2 at a hole concentration of 2.5 × 10^20 cm^-3 even at 800 K", "raw_value": "13.53", "raw_unit": "μW/cmK^2", "conversion": null}
+        },
+        {
+          "property": "doping", "value": 2.5e20, "value_max": null, "material": "AIT", "T_K": 800,
+          "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational",
+          "doping_text": "hole concentration", "carrier_conc_cm3": 2.5e20, "flags": [],
+          "evidence": {"quote": "AIT, with an optimal P.F. of 13.53 μW/cmK^2 at a hole concentration of 2.5 × 10^20 cm^-3", "raw_value": "2.5 × 10^20", "raw_unit": "cm^-3", "conversion": null}
+        }
+      ],
+      "note": null
+    },
+    {"sample_id": "T0119", "status": "ok", "records": [], "note": "Structural data only."},
+    {"sample_id": "T0120", "status": "ok", "records": [], "note": "No numeric property values."}
+  ]
+}

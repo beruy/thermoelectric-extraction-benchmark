@@ -1,0 +1,176 @@
+{
+  "batch": "batch_005",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "D0041",
+      "status": "ok",
+      "records": [
+        {
+          "property": "PF",
+          "value": 122,
+          "value_max": null,
+          "material": "Sr3AsN",
+          "T_K": 350,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "We obtain a maximum value of power factor 12.2 mW m-1 K-2 at 350 K", "raw_value": "12.2", "raw_unit": "mW m-1 K-2", "conversion": "x10 (mW m-1 K-2 -> uW cm-1 K-2)"}
+        }
+      ],
+      "note": "Material Sr3AsN taken from earlier sentence in the same paragraph."
+    },
+    {
+      "sample_id": "D0042",
+      "status": "ok",
+      "records": [
+        {
+          "property": "kappa",
+          "value": 2,
+          "value_max": null,
+          "material": "NWs",
+          "T_K": null,
+          "kappa_type": "lattice",
+          "qualifier": null,
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["temperature_unspecified"],
+          "evidence": {"quote": "κl=2W/mK is used for the thermal conductivity", "raw_value": "2", "raw_unit": "W/mK", "conversion": null}
+        }
+      ],
+      "note": "Assumed lattice thermal conductivity input for nanowire simulations."
+    },
+    {
+      "sample_id": "D0043",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "D0044",
+      "status": "ok",
+      "records": [
+        {
+          "property": "kappa",
+          "value": 4.2,
+          "value_max": null,
+          "material": "ZrNi1.07Pb0.38Sn0.6Bi0.02",
+          "T_K": 773,
+          "kappa_type": "total",
+          "qualifier": "min",
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value"],
+          "evidence": {"quote": "The sample having ZrNi1.07Pb0.38Sn0.6Bi0.02 composition depicts the lowest κ value ~ 4.2 W/mK at 773 K", "raw_value": "4.2", "raw_unit": "W/mK", "conversion": null}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0045",
+      "status": "ok",
+      "records": [
+        {
+          "property": "PF",
+          "value": 125.3,
+          "value_max": null,
+          "material": null,
+          "T_K": 300,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "cited",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": [],
+          "evidence": {"quote": "the PF reported to be 12.53 mW m-1 K-2 for the p-type carrier at 300K", "raw_value": "12.53", "raw_unit": "mW m-1 K-2", "conversion": "x10 (mW m-1 K-2 -> uW cm-1 K-2)"}
+        },
+        {
+          "property": "PF",
+          "value": 45,
+          "value_max": null,
+          "material": null,
+          "T_K": 300,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "the present study reveals that it should be ~4.5 mW m-1 K-2", "raw_value": "4.5", "raw_unit": "mW m-1 K-2", "conversion": "x10 (mW m-1 K-2 -> uW cm-1 K-2)"}
+        }
+      ],
+      "note": "p-type carriers; material not named in paragraph."
+    },
+    {
+      "sample_id": "D0046",
+      "status": "ok",
+      "records": [],
+      "note": "Table caption with units only, no values."
+    },
+    {
+      "sample_id": "D0047",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "D0048",
+      "status": "ok",
+      "records": [
+        {
+          "property": "ZT",
+          "value": 1.6,
+          "value_max": null,
+          "material": "VCu3Se4/Te4",
+          "T_K": 1000,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "cited",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value"],
+          "evidence": {"quote": "Ref. reported a high ZT~1.6 at 1000K for p-type carriers of VCu3Se4/Te4", "raw_value": "1.6", "raw_unit": null, "conversion": null}
+        },
+        {
+          "property": "ZT",
+          "value": 1,
+          "value_max": null,
+          "material": "TmCu3Ch4",
+          "T_K": 1000,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "The maximum ZT of n-type carrier is ~1 at 1000K, suggesting the n-type TmCu3Ch4 compounds", "raw_value": "1", "raw_unit": null, "conversion": null}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0049",
+      "status": "ok",
+      "records": [],
+      "note": "Carrier density only given as 'in the 10^20 cm^-3 range'; not recorded."
+    },
+    {
+      "sample_id": "D0050",
+      "status": "ok",
+      "records": [],
+      "note": null
+    }
+  ]
+}

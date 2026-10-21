@@ -1,0 +1,55 @@
+{
+  "batch": "batch_002",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0011", "status": "ok", "records": [], "note": "Equation fragment, no values."},
+    {"sample_id": "T0012", "status": "ok", "records": [], "note": "Table column headers only."},
+    {"sample_id": "T0013", "status": "ok", "records": [
+      {"property": "PF", "value": 170000, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "the PF reaches the very high value of 17 W/mK2", "raw_value": "17", "raw_unit": "W/mK2", "conversion": "1 W m-1 K-2 = 1e4 uW cm-1 K-2"}},
+      {"property": "PF", "value": 300, "value_max": 500, "material": null, "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "cited", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "astonishingly high PF values of 30-50 mW/mK2 can be achieved [81]", "raw_value": "30-50", "raw_unit": "mW/mK2", "conversion": "1 mW m-1 K-2 = 10 uW cm-1 K-2"}}
+    ], "note": null},
+    {"sample_id": "T0014", "status": "ok", "records": [], "note": "Sample preparation; fluences are not carrier concentrations."},
+    {"sample_id": "T0015", "status": "ok", "records": [], "note": "Equation only."},
+    {"sample_id": "T0016", "status": "ok", "records": [
+      {"property": "sigma", "value": 0.5, "value_max": null, "material": "GaS", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "0.5 Ω^-1 m^-1,\n0.4 Ω^-1 m^-1, 0.052 Ω^-1 m^-1 and 0.066 Ω^-1 m^-1\nrespectively", "raw_value": "0.5", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}},
+      {"property": "sigma", "value": 0.4, "value_max": null, "material": "GaSe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "0.5 Ω^-1 m^-1,\n0.4 Ω^-1 m^-1, 0.052 Ω^-1 m^-1 and 0.066 Ω^-1 m^-1\nrespectively", "raw_value": "0.4", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}},
+      {"property": "sigma", "value": 0.052, "value_max": null, "material": "InS", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "0.5 Ω^-1 m^-1,\n0.4 Ω^-1 m^-1, 0.052 Ω^-1 m^-1 and 0.066 Ω^-1 m^-1\nrespectively", "raw_value": "0.052", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}},
+      {"property": "sigma", "value": 0.066, "value_max": null, "material": "InSe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "0.5 Ω^-1 m^-1,\n0.4 Ω^-1 m^-1, 0.052 Ω^-1 m^-1 and 0.066 Ω^-1 m^-1\nrespectively", "raw_value": "0.066", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}},
+      {"property": "doping", "value": 1e16, "value_max": null, "material": "GaS", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": "n-type", "carrier_conc_cm3": 1e16, "flags": ["partial_evidence"],
+       "evidence": {"quote": "at a carrier concentration of 10^16 cm^-3", "raw_value": "10^16", "raw_unit": "cm^-3", "conversion": null}},
+      {"property": "doping", "value": 1e16, "value_max": null, "material": "GaSe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": "n-type", "carrier_conc_cm3": 1e16, "flags": ["partial_evidence"],
+       "evidence": {"quote": "at a carrier concentration of 10^16 cm^-3", "raw_value": "10^16", "raw_unit": "cm^-3", "conversion": null}},
+      {"property": "doping", "value": 1e16, "value_max": null, "material": "InS", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": "n-type", "carrier_conc_cm3": 1e16, "flags": ["partial_evidence"],
+       "evidence": {"quote": "at a carrier concentration of 10^16 cm^-3", "raw_value": "10^16", "raw_unit": "cm^-3", "conversion": null}},
+      {"property": "doping", "value": 1e16, "value_max": null, "material": "InSe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": "n-type", "carrier_conc_cm3": 1e16, "flags": ["partial_evidence"],
+       "evidence": {"quote": "at a carrier concentration of 10^16 cm^-3", "raw_value": "10^16", "raw_unit": "cm^-3", "conversion": null}},
+      {"property": "sigma", "value": 0.58, "value_max": null, "material": "GaS", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "ambiguous_attribution"],
+       "evidence": {"quote": "of 0.58 Ω^-1 m^-1, 0.42 Ω^-1 m^-1,\n0.058 Ω^-1 m^-1\nand 0.071 Ω^-1 m^-1, respectively", "raw_value": "0.58", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}},
+      {"property": "sigma", "value": 0.42, "value_max": null, "material": "GaSe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "ambiguous_attribution"],
+       "evidence": {"quote": "of 0.58 Ω^-1 m^-1, 0.42 Ω^-1 m^-1,\n0.058 Ω^-1 m^-1\nand 0.071 Ω^-1 m^-1, respectively", "raw_value": "0.42", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}},
+      {"property": "sigma", "value": 0.058, "value_max": null, "material": "InS", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "ambiguous_attribution"],
+       "evidence": {"quote": "of 0.58 Ω^-1 m^-1, 0.42 Ω^-1 m^-1,\n0.058 Ω^-1 m^-1\nand 0.071 Ω^-1 m^-1, respectively", "raw_value": "0.058", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}},
+      {"property": "sigma", "value": 0.071, "value_max": null, "material": "InSe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "ambiguous_attribution"],
+       "evidence": {"quote": "of 0.58 Ω^-1 m^-1, 0.42 Ω^-1 m^-1,\n0.058 Ω^-1 m^-1\nand 0.071 Ω^-1 m^-1, respectively", "raw_value": "0.071", "raw_unit": "Ω^-1 m^-1", "conversion": "1 Ω^-1 m^-1 = 1 S/m"}}
+    ], "note": "Computed conductivities list four values for three named materials (GaS, GaSe and InSe); assigned in the order of the preceding sentence (GaS, GaSe, InS, InSe)."},
+    {"sample_id": "T0017", "status": "ok", "records": [
+      {"property": "ZT", "value": 1, "value_max": null, "material": "Bi-Te alloys", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+       "evidence": {"quote": "the highest value of ZT, which is ~ 1 at room\ntemperature, is found in Bi-Te alloys.[2]", "raw_value": "~ 1", "raw_unit": null, "conversion": null}}
+    ], "note": "ZT about 3 ~ 4 is a hypothetical target, not recorded."},
+    {"sample_id": "T0018", "status": "ok", "records": [
+      {"property": "S_uVK", "value": 600, "value_max": null, "material": "Wse2 nanoribbon", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence", "temperature_unspecified"],
+       "evidence": {"quote": "reaching peak values of approximately 600 μV/K", "raw_value": "approximately 600", "raw_unit": "μV/K", "conversion": null}}
+    ], "note": "'not exceeding ~ 60 μV/K' is a bound; thermal conductance values (nW/K) are not kappa."},
+    {"sample_id": "T0019", "status": "ok", "records": [
+      {"property": "doping", "value": 3e19, "value_max": null, "material": "Mg3Sb2", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "n-doping (optimal for peak ZT)", "carrier_conc_cm3": 3e19, "flags": ["approximate_value"],
+       "evidence": {"quote": "the peak-ZT optimal n -doping of Mg3Sb2 is about 3 × 10^19 cm^-3", "raw_value": "3 × 10^19", "raw_unit": "cm^-3", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "T0020", "status": "ok", "records": [], "note": "Figure caption, no values."}
+  ]
+}

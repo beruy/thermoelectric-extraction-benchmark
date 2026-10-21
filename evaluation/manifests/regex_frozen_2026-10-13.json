@@ -1,0 +1,42 @@
+{
+  "recorded": "2026-10-13",
+  "purpose": "Frame v2: M0 regex frame rebuilt with PDF reader version 2 (PROTOCOL.md \u00a72-3). Supersedes the frame of regex_frozen_2026-10-09.json.",
+  "rules_unchanged": "regex_extractor/extractor.py has the same hash as in regex_frozen_2026-10-09.json; only the PDF reader changed.",
+  "reason": "The v1 frame (regex_output, 2026-09-29 03:02) was produced by a readers.py older than the one hashed in regex_frozen_2026-10-09.json (modified 03:42), without line-block merging; 42 of 57 sampled dev PDF paragraphs were fragments under 150 characters. Reader v2 merges PDF line blocks by layout, drops page numbers, continues paragraphs across figures/captions and stops at reference lists without heading. Developed on dev papers only; no test text was opened.",
+  "code": {
+    "regex_extractor/README.md": "5a61a243080e3a3817701ceb6edd8b5466ca719ac12d986cfd97225a84e5f261",
+    "regex_extractor/__init__.py": "2317e20cdd277831db74352c9e764ccc83201842af7a463b7c1afc019b99acf3",
+    "regex_extractor/__main__.py": "6d8b7d7846a845059d7a3107143f11131f63c5511d669b44085b15ec5e3d2279",
+    "regex_extractor/cli.py": "45cac063997f9a3a521b48498add75e44a113dac2d2384f7fe19c4cd58c23a67",
+    "regex_extractor/extractor.py": "ee2fbfc32ab6593bdd5d4c542e86cf1542b4b39de171d3e923ebb4a5a282723a",
+    "regex_extractor/readers.py": "f8320508d2dbe898e6c98d16bcdce68f4f08c9d6dd1b1bdcae8b2ad245f3a5d9",
+    "regex_extractor/sampling.py": "f5f9e9d813223c7b327cc87e8cdda92dfaac3c84930d9f25277001c5a0f1a688",
+    "regex_extractor/schema.py": "381ca21aa33189bea57686030806a08b0bb96149b11bba82d39850aff16bc73f"
+  },
+  "frame": {
+    "regex_output/paragraphs.jsonl": "cd00fa38fa0ce189523f4000bd2b7f9b280d6aa9873ef4cd00c24b7e35165c1b",
+    "regex_output/candidates.jsonl": "3f5df77f79b24e138542643265e898ddb32a1607dcaf7a681ee617c818d0bd70",
+    "regex_output/summary.json": "ed5bde3315482804130b3a04a8ace193d4454f2106bdc393312a501b7d1531ff"
+  },
+  "frame_counts": {
+    "pdf": {
+      "documents": 311,
+      "paragraphs": 21164,
+      "paragraphs_with_hits": 2099
+    },
+    "html": {
+      "documents": 146,
+      "paragraphs": 6776,
+      "paragraphs_with_hits": 964
+    }
+  },
+  "environment": {
+    "runner": "Google Colab",
+    "python": "3.13.16",
+    "pymupdf": "1.28.2",
+    "command": "python -m regex_extractor extract --pdf-dir corpus-main --html-dir \"Claude outputs/corpus/html\" --out regex_output --pdf-backend pymupdf"
+  },
+  "sample_command": "python -m evaluation.sample --frame regex_output --out evaluation/data --reuse-split evaluation/archive/frame_v1_2026-10-09/data/split.json",
+  "split": "identical to frame v1 for all 311 papers (93 dev / 218 test groups); sampling seeds unchanged",
+  "archived_v1": "evaluation/archive/frame_v1_2026-10-09/ (regex_output, data without CSV files, results_regex)"
+}

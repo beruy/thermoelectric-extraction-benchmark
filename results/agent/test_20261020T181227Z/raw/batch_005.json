@@ -1,0 +1,130 @@
+{
+  "batch": "batch_005",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0041", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0042", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0043", "status": "ok", "records": [], "note": null},
+    {
+      "sample_id": "T0044",
+      "status": "ok",
+      "records": [
+        {
+          "property": "ZT",
+          "value": 0.88,
+          "value_max": null,
+          "material": "MoTe2/PtS2",
+          "T_K": 900,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "ZT_max are 0.88 and 0.71 for the n-type and p-type, respectively, at T=900 K", "raw_value": "0.88", "raw_unit": null, "conversion": null}
+        },
+        {
+          "property": "ZT",
+          "value": 0.71,
+          "value_max": null,
+          "material": "MoTe2/PtS2",
+          "T_K": 900,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "ZT_max are 0.88 and 0.71 for the n-type and p-type, respectively, at T=900 K", "raw_value": "0.71", "raw_unit": null, "conversion": null}
+        }
+      ],
+      "note": "n-type 0.88, p-type 0.71; material named in a later sentence."
+    },
+    {"sample_id": "T0045", "status": "ok", "records": [], "note": null},
+    {
+      "sample_id": "T0046",
+      "status": "ok",
+      "records": [
+        {
+          "property": "kappa",
+          "value": 0.165,
+          "value_max": 0.252,
+          "material": null,
+          "T_K": 300,
+          "kappa_type": "lattice",
+          "qualifier": "range",
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["ambiguous_attribution"],
+          "evidence": {"quote": "at 300 K, a MFP of 0.79 Å is required to change κl value by 50% (from 0.165 to 0.252 Wm-1K-1)", "raw_value": "0.165 to 0.252", "raw_unit": "Wm-1K-1", "conversion": null}
+        }
+      ],
+      "note": "Cumulative lattice thermal conductivity values; no material named."
+    },
+    {
+      "sample_id": "T0047",
+      "status": "ok",
+      "records": [
+        {
+          "property": "ZT",
+          "value": 0.14,
+          "value_max": null,
+          "material": "W off-stoichiometrically doped films",
+          "T_K": null,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["temperature_unspecified"],
+          "evidence": {"quote": "achieving W off-stoichiometrically doped films the greatest zT value reported in this work of 0.14", "raw_value": "0.14", "raw_unit": null, "conversion": null}
+        }
+      ],
+      "note": "Films are W-doped Fe2VAl."
+    },
+    {
+      "sample_id": "T0048",
+      "status": "ok",
+      "records": [
+        {
+          "property": "S_uVK",
+          "value": -82,
+          "value_max": null,
+          "material": "Bi4GeTe7",
+          "T_K": 380,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value", "partial_evidence", "ambiguous_attribution"],
+          "evidence": {"quote": "S ~ - 82 μV/K", "raw_value": "- 82", "raw_unit": "μV/K", "conversion": null}
+        },
+        {
+          "property": "PF",
+          "value": 2.65,
+          "value_max": null,
+          "material": "Bi4GeTe7",
+          "T_K": 380,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "PF ~ 2.65 x 10-4 Wm-1K-2 at 380 K", "raw_value": "2.65 x 10-4", "raw_unit": "Wm-1K-1", "conversion": "2.65e-4 W m-1 K-2 x 1e4 = 2.65 uW cm-1 K-2"}
+        }
+      ],
+      "note": "Temperature of S taken from the same sentence (380 K)."
+    },
+    {"sample_id": "T0049", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0050", "status": "ok", "records": [], "note": null}
+  ]
+}

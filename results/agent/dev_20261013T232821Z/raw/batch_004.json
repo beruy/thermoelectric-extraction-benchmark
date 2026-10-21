@@ -1,0 +1,82 @@
+{
+  "batch": "batch_004",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "D0031",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 63.9, "value_max": null, "material": "Na2AuBi", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "p -type Na2AuBi achieves a PF of 63.9 μW cm^-1 K^-2", "raw_value": "63.9", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "kappa", "value": 0.49, "value_max": null, "material": "Na2AuBi", "T_K": 800, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "an ultralow κ_L of 0.49 W m^-1 K^-1", "raw_value": "0.49", "raw_unit": "W m^-1 K^-1", "conversion": null}},
+        {"property": "ZT", "value": 4.7, "value_max": null, "material": "Na2AuBi", "T_K": 800, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "a maximum ZT of 4.7 along the zigzag-chain direction at 800 K", "raw_value": "4.7", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0032",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 1.50, "value_max": null, "material": "cor4GNRs", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"], "evidence": {"quote": "the converged ZT values are 1.50, 1.43, and 2.10 for μ = -0.35, 0.37, and 1.21 eV, respectively", "raw_value": "1.50", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 1.43, "value_max": null, "material": "cor4GNRs", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"], "evidence": {"quote": "the converged ZT values are 1.50, 1.43, and 2.10 for μ = -0.35, 0.37, and 1.21 eV, respectively", "raw_value": "1.43", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 2.10, "value_max": null, "material": "cor4GNRs", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"], "evidence": {"quote": "the converged ZT values are 1.50, 1.43, and 2.10 for μ = -0.35, 0.37, and 1.21 eV, respectively", "raw_value": "2.10", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {"sample_id": "D0033", "status": "ok", "records": [], "note": "Figure caption, no numeric property values."},
+    {"sample_id": "D0034", "status": "ok", "records": [], "note": "No thermoelectric property values."},
+    {"sample_id": "D0035", "status": "ok", "records": [], "note": "Seebeck given only as bound (larger than 400 μV/K); carrier concentration ~1019 is broken superscript."},
+    {"sample_id": "D0036", "status": "ok", "records": [], "note": "Figure legend text, no values."},
+    {
+      "sample_id": "D0037",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 200, "value_max": 800, "material": "Cr X", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"], "evidence": {"quote": "the PF of Cr X (about 0.02 – 0.08 W/m.K^2)", "raw_value": "0.02 – 0.08", "raw_unit": "W/m.K^2", "conversion": "1 W m^-1 K^-2 = 10^4 μW cm^-1 K^-2"}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0038",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 0.2, "value_max": 1.0, "material": "β -Ag2Se", "T_K": 300, "kappa_type": null, "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "The ZT of β -Ag2Se near 300 K varies from 0.2 to 1.0", "raw_value": "0.2 to 1.0", "raw_unit": null, "conversion": null}},
+        {"property": "doping", "value": 1.6e18, "value_max": null, "material": "β -Ag2Se", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": "n = 1.6 × 10^18 cm^-3", "carrier_conc_cm3": 1.6e18, "flags": [], "evidence": {"quote": "The optimized n = 1.6 × 10^18 cm^-3 for the maximum ZT in β -Ag2Se", "raw_value": "1.6 × 10^18", "raw_unit": "cm^-3", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0039",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": 1e18, "value_max": null, "material": "Cs2AgPdCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "electron", "carrier_conc_cm3": 1e18, "flags": ["partial_evidence"], "evidence": {"quote": "At an electron (hole) concentration of 1× 10^18 cm^-3", "raw_value": "1× 10^18", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e18, "value_max": null, "material": "Cs2AgPdCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "hole", "carrier_conc_cm3": 1e18, "flags": ["partial_evidence"], "evidence": {"quote": "At an electron (hole) concentration of 1× 10^18 cm^-3", "raw_value": "1× 10^18", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e18, "value_max": null, "material": "Cs2AgPtCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "electron", "carrier_conc_cm3": 1e18, "flags": ["partial_evidence"], "evidence": {"quote": "At an electron (hole) concentration of 1× 10^18 cm^-3", "raw_value": "1× 10^18", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e18, "value_max": null, "material": "Cs2AgPtCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "hole", "carrier_conc_cm3": 1e18, "flags": ["partial_evidence"], "evidence": {"quote": "At an electron (hole) concentration of 1× 10^18 cm^-3", "raw_value": "1× 10^18", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e21, "value_max": null, "material": "Cs2AgPdCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "electron", "carrier_conc_cm3": 1e21, "flags": ["partial_evidence"], "evidence": {"quote": "At a high electron (hole) concentration of 1× 10^21 cm^-3", "raw_value": "1× 10^21", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e21, "value_max": null, "material": "Cs2AgPdCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "hole", "carrier_conc_cm3": 1e21, "flags": ["partial_evidence"], "evidence": {"quote": "At a high electron (hole) concentration of 1× 10^21 cm^-3", "raw_value": "1× 10^21", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e21, "value_max": null, "material": "Cs2AgPtCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "electron", "carrier_conc_cm3": 1e21, "flags": ["partial_evidence"], "evidence": {"quote": "At a high electron (hole) concentration of 1× 10^21 cm^-3", "raw_value": "1× 10^21", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 1e21, "value_max": null, "material": "Cs2AgPtCl5", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "hole", "carrier_conc_cm3": 1e21, "flags": ["partial_evidence"], "evidence": {"quote": "At a high electron (hole) concentration of 1× 10^21 cm^-3", "raw_value": "1× 10^21", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "S_uVK", "value": 398, "value_max": null, "material": "Cs2AgPdCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "At an electron (hole) concentration of 1× 10^18 cm^-3 and 300 K, the Seebeck coefficient is found to be 398 (544) μV/K for Cs2AgPdCl5", "raw_value": "398", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 544, "value_max": null, "material": "Cs2AgPdCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "At an electron (hole) concentration of 1× 10^18 cm^-3 and 300 K, the Seebeck coefficient is found to be 398 (544) μV/K for Cs2AgPdCl5", "raw_value": "544", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 389, "value_max": null, "material": "Cs2AgPtCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "389 (691) μV/K for Cs2AgPtCl5", "raw_value": "389", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 691, "value_max": null, "material": "Cs2AgPtCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "389 (691) μV/K for Cs2AgPtCl5", "raw_value": "691", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 3.42, "value_max": null, "material": "Cs2AgPdCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "the Seebeck coefficient decreases to 3.42 (44.2) μV/K in Cs2AgPdCl5", "raw_value": "3.42", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 44.2, "value_max": null, "material": "Cs2AgPdCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "the Seebeck coefficient decreases to 3.42 (44.2) μV/K in Cs2AgPdCl5", "raw_value": "44.2", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 12.17, "value_max": null, "material": "Cs2AgPtCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "12.17 (112.46) μV/K in Cs2AgPtCl5", "raw_value": "12.17", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 112.46, "value_max": null, "material": "Cs2AgPtCl5", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "12.17 (112.46) μV/K in Cs2AgPtCl5", "raw_value": "112.46", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 22.89, "value_max": null, "material": "Cs2AgPdCl5", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "the Seebeck coefficient increases to 22.89 (99.45) μV/K in Cs2AgPdCl5", "raw_value": "22.89", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 99.45, "value_max": null, "material": "Cs2AgPdCl5", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "the Seebeck coefficient increases to 22.89 (99.45) μV/K in Cs2AgPdCl5", "raw_value": "99.45", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 26.32, "value_max": null, "material": "Cs2AgPtCl5", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "26.32 (186.84) μV/K in Cs2AgPtCl5", "raw_value": "26.32", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 186.84, "value_max": null, "material": "Cs2AgPtCl5", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "26.32 (186.84) μV/K in Cs2AgPtCl5", "raw_value": "186.84", "raw_unit": "μV/K", "conversion": null}}
+      ],
+      "note": "Electron-doping Seebeck values recorded as written (no sign given)."
+    },
+    {
+      "sample_id": "D0040",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": 2.8e20, "value_max": null, "material": "TiS2", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "carrier density 2.8× 10^20 cm^-3", "carrier_conc_cm3": 2.8e20, "flags": ["partial_evidence"], "evidence": {"quote": "The carrier density at room temperature is 2.8× 10^20 cm^-3", "raw_value": "2.8× 10^20", "raw_unit": "cm^-3", "conversion": null}}
+      ],
+      "note": null
+    }
+  ]
+}

@@ -1,0 +1,97 @@
+{
+  "batch": "batch_007",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "T0061",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 25000, "value_max": null, "material": "Zn4Sb3", "T_K": 394, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity", "partial_evidence"], "evidence": {"quote": "from 4.0 mΩcm for stoichiometric compound to 2.7 mΩcm for Sb deficient compounds at 394 K", "raw_value": "4.0", "raw_unit": "mΩcm", "conversion": "sigma = 1/(4.0e-3 Ohm cm) = 250 S/cm = 25000 S/m"}},
+        {"property": "sigma", "value": 37037.04, "value_max": null, "material": "Sb deficient compounds", "T_K": 394, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity", "ambiguous_attribution"], "evidence": {"quote": "to 2.7 mΩcm for Sb deficient compounds at 394 K", "raw_value": "2.7", "raw_unit": "mΩcm", "conversion": "sigma = 1/(2.7e-3 Ohm cm) = 370.37 S/cm = 37037.04 S/m"}},
+        {"property": "sigma", "value": 23255.81, "value_max": null, "material": "Zn4Sb2.9", "T_K": 632, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity"], "evidence": {"quote": "reaches a maximum of 4.3 mΩcm for Zn4Sb2.9 at 632 K", "raw_value": "4.3", "raw_unit": "mΩcm", "conversion": "sigma = 1/(4.3e-3 Ohm cm) = 232.56 S/cm = 23255.81 S/m"}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0062",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": null, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "Alx (x = 0.01)", "carrier_conc_cm3": null, "flags": ["ambiguous_attribution"], "evidence": {"quote": "These compositions were doped with Alx (x = 0.01 and 0.015) on the Hf/Zr and Co site.", "raw_value": "0.01", "raw_unit": null, "conversion": null}},
+        {"property": "doping", "value": null, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "Alx (x = 0.015)", "carrier_conc_cm3": null, "flags": ["ambiguous_attribution"], "evidence": {"quote": "These compositions were doped with Alx (x = 0.01 and 0.015) on the Hf/Zr and Co site.", "raw_value": "0.015", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0063",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": 9.2e18, "value_max": null, "material": "Bi2Te2.7Se0.3", "T_K": 298, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "n-type", "carrier_conc_cm3": 9.2e18, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "about 0.92× 10^19 cm^-3", "raw_value": "0.92× 10^19", "raw_unit": "cm^-3", "conversion": "0.92e19 = 9.2e18 cm^-3"}},
+        {"property": "kappa", "value": 0.728, "value_max": null, "material": "Bi2Te2.7Se0.3", "T_K": null, "kappa_type": "lattice", "qualifier": null, "origin": "cited", "context": null, "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "κl=0.728 W/mK", "raw_value": "0.728", "raw_unit": "W/mK", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0064",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 9300, "value_max": null, "material": "MAxCs1-xSnI3 (x=0)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The highest electrical conductivity is observed for x=0 and x=0.6 compositions, with values of 93 and 80 Ω^-1cm^-1 at room temperature", "raw_value": "93", "raw_unit": "Ω^-1cm^-1", "conversion": "x100 S/m per S/cm"}},
+        {"property": "sigma", "value": 8000, "value_max": null, "material": "MAxCs1-xSnI3 (x=0.6)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The highest electrical conductivity is observed for x=0 and x=0.6 compositions, with values of 93 and 80 Ω^-1cm^-1 at room temperature", "raw_value": "80", "raw_unit": "Ω^-1cm^-1", "conversion": "x100 S/m per S/cm"}},
+        {"property": "S_uVK", "value": 39, "value_max": null, "material": "MAxCs1-xSnI3 (x=0)", "T_K": null, "kappa_type": null, "qualifier": "min", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "temperature_unspecified"], "evidence": {"quote": "These compositions also display the lowest Seebeck coefficients of 39 μV/K", "raw_value": "39", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 39, "value_max": null, "material": "MAxCs1-xSnI3 (x=0.6)", "T_K": null, "kappa_type": null, "qualifier": "min", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "temperature_unspecified"], "evidence": {"quote": "These compositions also display the lowest Seebeck coefficients of 39 μV/K", "raw_value": "39", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "sigma", "value": 4300, "value_max": 6700, "material": "MAxCs1-xSnI3 (x=0.2, 0.4, 0.5)", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "temperature_unspecified"], "evidence": {"quote": "These compositions show conductivity values ranging from 67 to 43 Ω^-1cm^-1", "raw_value": "67 to 43", "raw_unit": "Ω^-1cm^-1", "conversion": "x100 S/m per S/cm"}},
+        {"property": "S_uVK", "value": 47, "value_max": 52, "material": "MAxCs1-xSnI3 (x=0.2, 0.4, 0.5)", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence", "temperature_unspecified"], "evidence": {"quote": "correspondingly higher Seebeck coefficients (47–52 μV/K)", "raw_value": "47–52", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "sigma", "value": 4300, "value_max": null, "material": "MAxCs1-xSnI3 (x=0.8)", "T_K": null, "kappa_type": null, "qualifier": "min", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"], "evidence": {"quote": "The x=0.8 composition, with the lowest conductivity (43 Ω^-1cm^-1)", "raw_value": "43", "raw_unit": "Ω^-1cm^-1", "conversion": "x100 S/m per S/cm"}},
+        {"property": "S_uVK", "value": 64, "value_max": null, "material": "MAxCs1-xSnI3 (x=0.8)", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"], "evidence": {"quote": "The x=0.8 composition, with the lowest conductivity (43 Ω^-1cm^-1) and the highest Seebeck coefficient (64 μV/K)", "raw_value": "64", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 51, "value_max": null, "material": "MASnI3", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "MASnI3 exhibits non-linear behavior with a sharp increase in Seebeck coefficient from 51 μV/K at 300 K to 175 μV/K at 423 K", "raw_value": "51", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": 175, "value_max": null, "material": "MASnI3", "T_K": 423, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "MASnI3 exhibits non-linear behavior with a sharp increase in Seebeck coefficient from 51 μV/K at 300 K to 175 μV/K at 423 K", "raw_value": "175", "raw_unit": "μV/K", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0065",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0066",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 205, "value_max": null, "material": "monolayer WS2", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"], "evidence": {"quote": "The optimal PFs are about 20.5 mW/mK2 and 18.4 mW/mK2 for p-doped monolayer WS2 and WS2/WSe2 LS", "raw_value": "20.5", "raw_unit": "mW/mK2", "conversion": "1 mW m-1 K-2 = 10 uW cm-1 K-2"}},
+        {"property": "PF", "value": 184, "value_max": null, "material": "WS2/WSe2 LS", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"], "evidence": {"quote": "The optimal PFs are about 20.5 mW/mK2 and 18.4 mW/mK2 for p-doped monolayer WS2 and WS2/WSe2 LS", "raw_value": "18.4", "raw_unit": "mW/mK2", "conversion": "1 mW m-1 K-2 = 10 uW cm-1 K-2"}}
+      ],
+      "note": "kappa_e given only as bound (less than 0.5 W/mK) and carrier density 1019 is broken by extraction; not recorded."
+    },
+    {
+      "sample_id": "T0067",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0068",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0069",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 15, "value_max": null, "material": "LCO", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The σ at 300 K for LCO is 0.15 S/cm", "raw_value": "0.15", "raw_unit": "S/cm", "conversion": "x100"}},
+        {"property": "sigma", "value": 9, "value_max": null, "material": "x=0.02-BM", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "it reduces to 0.09 S/cm for x=0.02-BM", "raw_value": "0.09", "raw_unit": "S/cm", "conversion": "x100"}},
+        {"property": "sigma", "value": 5, "value_max": null, "material": "x=0.05-BM", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "it reduces to 0.09 S/cm for x=0.02-BM to 0.05 for x=0.05-BM", "raw_value": "0.05", "raw_unit": null, "conversion": "unit S/cm from same sentence; x100"}},
+        {"property": "sigma", "value": 63200, "value_max": null, "material": "LaCoO3", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "the σ at 800 K is ~632 S/cm for LaCoO3", "raw_value": "~632", "raw_unit": "S/cm", "conversion": "x100"}},
+        {"property": "sigma", "value": 9100, "value_max": null, "material": "x=0.02-BM", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "it reduces to 91 S/cm for x=0.02-BM", "raw_value": "91", "raw_unit": "S/cm", "conversion": "x100"}},
+        {"property": "sigma", "value": 5200, "value_max": null, "material": "x=0.05-BM", "T_K": 800, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "to 52 S/cm for x=0.05-BM", "raw_value": "52", "raw_unit": "S/cm", "conversion": "x100"}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0070",
+      "status": "ok",
+      "records": [],
+      "note": null
+    }
+  ]
+}

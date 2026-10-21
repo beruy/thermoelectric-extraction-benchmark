@@ -1,0 +1,64 @@
+{
+  "method_id": "M1",
+  "method_name": "ChemDataExtractor thermoelectric parsers (Sierepeklis & Cole 2022)",
+  "run_id": "dev_20261019T220217Z",
+  "split": "dev",
+  "code_version": {
+    "predict_sha256": "e7e21b1babadb43575f81e634048b768a65a4b411163e22e72c72a16ee877cda",
+    "thermoelectricsdb_commit": "78e5003b79f25679f2042407a74f7e88025b3da2",
+    "chemdataextractor_path": "/content/tepkg/ChemDataExtractor-TE-2.0.0-te/chemdataextractor",
+    "chemdataextractor_py_sha256": "ac31a49ef8e6abf687c1099893c3c21fd0e090ac9331523e6da8f1f68c99abd8",
+    "pandas": "1.5.3"
+  },
+  "config": {
+    "models": [
+      "ZT",
+      "Seebeck",
+      "ThermCond",
+      "Conductivity",
+      "Conductivity2",
+      "Resistivity",
+      "PF"
+    ],
+    "room_temperature_K": 295.0,
+    "unit_factors_to_canonical": {
+      "ZT": 1.0,
+      "S_uVK": 1000000.0,
+      "kappa": 1.0,
+      "sigma": 1.0,
+      "PF": 10000.0
+    },
+    "limit": null
+  },
+  "model_id": null,
+  "model_params": null,
+  "input_file": "evaluation/data/dev/inputs.jsonl",
+  "input_sha256": "938a3572a42175cc52edb29165b63017a4f1ce593e25ecc2e25f91a639dc4e0c",
+  "started_at": "2026-10-19T22:02:19+00:00",
+  "finished_at": "2026-10-19T22:32:11+00:00",
+  "wall_seconds": 1792.2,
+  "n_paragraphs": 100,
+  "n_ok": 100,
+  "n_failed": 0,
+  "n_predictions": 26,
+  "n_invalid_predictions": 0,
+  "n_raw_records": 26,
+  "dropped_by_cleaning": {},
+  "n_model_calls": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "cost_usd": 0.0,
+  "price_table": null,
+  "hardware": {
+    "python": "3.8.20",
+    "machine": "x86_64",
+    "system": "Linux"
+  },
+  "capabilities": [
+    "ZT",
+    "S_uVK",
+    "kappa",
+    "sigma",
+    "PF"
+  ]
+}

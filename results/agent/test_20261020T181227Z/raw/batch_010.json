@@ -1,0 +1,81 @@
+{
+  "batch": "batch_010",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "T0091",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 16393.4, "value_max": null, "material": "AgBiSe2", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity"], "evidence": {"quote": "the ρ value of pristine AgBiSe2 was 6.1 mΩcm", "raw_value": "6.1", "raw_unit": "mΩcm", "conversion": "sigma = 1/(6.1e-5 Ω m) = 16393.4 S/m"}},
+        {"property": "sigma", "value": 2994.0, "value_max": null, "material": "AgBiSe2", "T_K": 600, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity", "approximate_value", "partial_evidence"], "evidence": {"quote": "The value of ρ increased to 33.4 mΩcm at around 600 K", "raw_value": "33.4", "raw_unit": "mΩcm", "conversion": "sigma = 1/(33.4e-5 Ω m) = 2994.0 S/m"}},
+        {"property": "sigma", "value": 5235.6, "value_max": null, "material": "AgBiSe2", "T_K": 748, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity", "partial_evidence"], "evidence": {"quote": "decreased to 19.1 mΩcm at 748 K", "raw_value": "19.1", "raw_unit": "mΩcm", "conversion": "sigma = 1/(19.1e-5 Ω m) = 5235.6 S/m"}},
+        {"property": "sigma", "value": 2032.5, "value_max": null, "material": "AgBiSe2-2xSxTex (x = 0.6)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity"], "evidence": {"quote": "The ρ value of x = 0.6 was 49.2 mΩcm at room temperature", "raw_value": "49.2", "raw_unit": "mΩcm", "conversion": "sigma = 1/(49.2e-5 Ω m) = 2032.5 S/m"}},
+        {"property": "sigma", "value": 12987.0, "value_max": null, "material": "AgBiSe2-2xSxTex (x = 0.6)", "T_K": 748, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["derived_from_resistivity", "partial_evidence"], "evidence": {"quote": "it decreased to 7.7 mΩcm at 748 K", "raw_value": "7.7", "raw_unit": "mΩcm", "conversion": "sigma = 1/(7.7e-5 Ω m) = 12987.0 S/m"}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0092",
+      "status": "ok",
+      "records": [],
+      "note": "ZT > 3.6 is a bound; not recorded."
+    },
+    {
+      "sample_id": "T0093",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": null, "value_max": null, "material": "FeSb2", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "Te, x = 0.08", "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "The Te-concentration in our sample (x = 0.08)", "raw_value": "0.08", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0094",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 1, "value_max": null, "material": "silicon nanowires", "T_K": 200, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "the experiment on silicon nanowires has suggested the possibility of utilizing the phonon drag to reach zT of 1 at 200K", "raw_value": "1", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0095",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0096",
+      "status": "ok",
+      "records": [],
+      "note": "Carrier density '1 – 21020 cm-3' is a range with broken exponent; not recorded."
+    },
+    {
+      "sample_id": "T0097",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 2.4, "value_max": null, "material": "Bi2Te3/Sb2Te3", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"], "evidence": {"quote": "a ZT ~ 2.4 has been reported in the thin film heterostructure of Bi2Te3/Sb2Te3", "raw_value": "2.4", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0098",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": 1115, "value_max": null, "material": "Bi2Te3", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified", "partial_evidence"], "evidence": {"quote": "we find an extraordinary large Seebeck coefficient, α~ 1115 μV K^-1", "raw_value": "1115", "raw_unit": "μV K^-1", "conversion": null}},
+        {"property": "ZT", "value": 60, "value_max": null, "material": "Bi2Te3", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified", "partial_evidence"], "evidence": {"quote": "We thus arrive at an extremely large zT~ 60", "raw_value": "60", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0099",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0100",
+      "status": "ok",
+      "records": [],
+      "note": null
+    }
+  ]
+}

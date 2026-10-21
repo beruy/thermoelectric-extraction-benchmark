@@ -1,0 +1,70 @@
+{
+  "batch": "batch_003",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "D0021", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0022", "status": "ok", "records": [], "note": "flattened table row; no target values"},
+    {"sample_id": "D0023", "status": "ok", "records": [], "note": null},
+    {
+      "sample_id": "D0024",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 340, "value_max": null, "material": "NixAu1-x", "T_K": 560, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+         "evidence": {"quote": "reaching peak values of 34 mWm^-1K^-2 at 560 K", "raw_value": "34", "raw_unit": "mWm^-1K^-2", "conversion": "1 mW m^-1 K^-2 = 10 uW cm^-1 K^-2"}},
+        {"property": "PF", "value": 290, "value_max": null, "material": "NixAu1-x", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+         "evidence": {"quote": "29 mWm^-1K^-2 at room temperature", "raw_value": "29", "raw_unit": "mWm^-1K^-2", "conversion": "1 mW m^-1 K^-2 = 10 uW cm^-1 K^-2"}},
+        {"property": "PF", "value": 300, "value_max": null, "material": "NixAu1-x (x=0.1)", "T_K": null, "kappa_type": null, "qualifier": "avg", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+         "evidence": {"quote": "For x=0.1, we find a colossal average PF≈ 30 mWm^-1K^-2 over an extremely broad temperature range 300–1100 K", "raw_value": "30", "raw_unit": "mWm^-1K^-2", "conversion": "1 mW m^-1 K^-2 = 10 uW cm^-1 K^-2"}}
+      ],
+      "note": "kappa_eff values (active cooling) are not kappa and were not recorded"
+    },
+    {"sample_id": "D0025", "status": "ok", "records": [], "note": "flattened table header; no values"},
+    {"sample_id": "D0026", "status": "ok", "records": [], "note": "conductivity '107 S/m' is a broken superscript and an order of magnitude; not recorded"},
+    {
+      "sample_id": "D0027",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": 1.0e20, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "n-type", "carrier_conc_cm3": 1.0e20, "flags": [],
+         "evidence": {"quote": "the optimal carrier concentration is 1.0x1020 cm-3", "raw_value": "1.0x1020", "raw_unit": "cm-3", "conversion": "x10 exponent restored: 1.0e20"}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0028",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": -171, "value_max": null, "material": "Ru0.995Ir0.005In3", "T_K": 290, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+         "evidence": {"quote": "S(290 K)Ru0.995Ir0.005In3 = -171 μV/K", "raw_value": "-171", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": -182, "value_max": null, "material": "Ru0.99Ir0.01In3", "T_K": 290, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+         "evidence": {"quote": "S(290 K)Ru0.99Ir0.01In3 = -182 μV/K", "raw_value": "-182", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": -20, "value_max": null, "material": "IrIn3", "T_K": 290, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+         "evidence": {"quote": "S(290 K)IrIn3 ~ -20 μV/K", "raw_value": "-20", "raw_unit": "μV/K", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0029",
+      "status": "ok",
+      "records": [
+        {"property": "kappa", "value": 2, "value_max": null, "material": "Si NWs", "T_K": null, "kappa_type": "lattice", "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+         "evidence": {"quote": "Using an experimentally measured value for the thermal conductivity κl=2W/mK [15, 18]", "raw_value": "2", "raw_unit": "W/mK", "conversion": null}},
+        {"property": "ZT", "value": 0.5, "value_max": 1, "material": "Si NWs", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+         "evidence": {"quote": "ZT ~0.5-1 can be achieved in Si NWs", "raw_value": "0.5-1", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 4, "value_max": null, "material": "Si NWs", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"],
+         "evidence": {"quote": "reduced from ZT~4 under ballistic considerations in Fig. 4", "raw_value": "4", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0030",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": -200, "value_max": null, "material": "FeAs2", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+         "evidence": {"quote": "-200μV/K [23]", "raw_value": "-200", "raw_unit": "μV/K", "conversion": null}},
+        {"property": "S_uVK", "value": -7000, "value_max": null, "material": "FeAs2", "T_K": 12, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+         "evidence": {"quote": "to reach -7 mV/K at 12K,[14]", "raw_value": "-7", "raw_unit": "mV/K", "conversion": "1 mV/K = 1000 uV/K"}}
+      ],
+      "note": null
+    }
+  ]
+}

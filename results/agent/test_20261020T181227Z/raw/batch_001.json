@@ -1,0 +1,51 @@
+{
+  "batch": "batch_001",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0001", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0002", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0003", "status": "ok", "records": [
+      {"property": "S_uVK", "value": 1000, "value_max": null, "material": "Zr0.75NiSb", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "The calculated Seebeck coefficient for Zr0.75NiSb at 300 K is 1000 μV/K", "raw_value": "1000", "raw_unit": "μV/K", "conversion": null}},
+      {"property": "S_uVK", "value": 456, "value_max": null, "material": "Zr0.75NiSb", "T_K": 700, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "at 700 K it reduces to 456 μV/K", "raw_value": "456", "raw_unit": "μV/K", "conversion": null}},
+      {"property": "PF", "value": 64, "value_max": null, "material": "Zr0.75NiSb", "T_K": 700, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "a maximum value of 64 μW/ K2cms at 700 K", "raw_value": "64", "raw_unit": "μW/ K2cms", "conversion": "taken as μW cm^-1 K^-2 (unit as written includes per-second, likely per relaxation time)"}},
+      {"property": "PF", "value": 32, "value_max": null, "material": "Zr0.75NiSb", "T_K": 300, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "a maximum value of 32 μW/ K2cms at 300 K", "raw_value": "32", "raw_unit": "μW/ K2cms", "conversion": "taken as μW cm^-1 K^-2 (unit as written includes per-second, likely per relaxation time)"}},
+      {"property": "ZT", "value": 0.97, "value_max": null, "material": "Zr0.75NiSb", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "The corresponding ZT value is 0.97 and 0.87 at 300 K and 700 K, respectively", "raw_value": "0.97", "raw_unit": null, "conversion": null}},
+      {"property": "ZT", "value": 0.87, "value_max": null, "material": "Zr0.75NiSb", "T_K": 700, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "The corresponding ZT value is 0.97 and 0.87 at 300 K and 700 K, respectively", "raw_value": "0.87", "raw_unit": null, "conversion": null}}
+    ], "note": "Electrical conductivity given in 1/(Ohm m s) (sigma/tau) not recorded as sigma."},
+    {"sample_id": "T0004", "status": "ok", "records": [
+      {"property": "PF", "value": 345, "value_max": null, "material": "graphene", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "graphene, has exhibited a power factor (PF) value as high as 34.5 mWm^-1K^-2 at room temperature [17]", "raw_value": "34.5", "raw_unit": "mWm^-1K^-2", "conversion": "x10 (mW m^-1 K^-2 to μW cm^-1 K^-2)"}},
+      {"property": "kappa", "value": 2000, "value_max": 4000, "material": "graphene", "T_K": null, "kappa_type": "unspecified", "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "extremely high thermal conductivity (2000-4000 Wm^-1K^-1 for freely suspended samples at room temperature [18, 19])", "raw_value": "2000-4000", "raw_unit": "Wm^-1K^-1", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "T0005", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0006", "status": "ok", "records": [], "note": "Carrier concentrations broken by PDF extraction (e.g. 11020) not recorded."},
+    {"sample_id": "T0007", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0008", "status": "ok", "records": [
+      {"property": "kappa", "value": 3.0, "value_max": null, "material": "LaO1-xFx(PbS)BiS2", "T_K": 300, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["ambiguous_attribution", "partial_evidence"],
+       "evidence": {"quote": "we assumed τ=5.0× 10^-15 s and κ_ph=3.0 W m^-1 K^-1 in this study", "raw_value": "3.0", "raw_unit": "W m^-1 K^-1", "conversion": null}},
+      {"property": "kappa", "value": 1, "value_max": 4, "material": "LaO(PbS)BiS2", "T_K": null, "kappa_type": "total", "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+       "evidence": {"quote": "experimental total thermal conductivity of LaO(PbS)BiS2, κ~ 1–4 W m^-1 K^-1 at 50–300 K [21]", "raw_value": "1–4", "raw_unit": "W m^-1 K^-1", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "T0009", "status": "ok", "records": [
+      {"property": "ZT", "value": 0.00088, "value_max": null, "material": "(CoCuNiFeZn)1-xGaxWO4 (x=0.075)", "T_K": 1100, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "a maximum zT of 0.88·10^-3 at 1100 K for x=0.075", "raw_value": "0.88·10^-3", "raw_unit": null, "conversion": "0.88e-3 = 0.00088"}}
+    ], "note": null},
+    {"sample_id": "T0010", "status": "ok", "records": [
+      {"property": "kappa", "value": 3.01, "value_max": null, "material": "CoFeCrGe", "T_K": 1100, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "reach 3.01 W/(m.K) (3.47 W/(m.K)) for CoFeCrGe (CoFeTiGe) at 1100 K", "raw_value": "3.01", "raw_unit": "W/(m.K)", "conversion": null}},
+      {"property": "kappa", "value": 3.47, "value_max": null, "material": "CoFeTiGe", "T_K": 1100, "kappa_type": "lattice", "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [],
+       "evidence": {"quote": "reach 3.01 W/(m.K) (3.47 W/(m.K)) for CoFeCrGe (CoFeTiGe) at 1100 K", "raw_value": "3.47", "raw_unit": "W/(m.K)", "conversion": null}},
+      {"property": "ZT", "value": 0.71, "value_max": null, "material": "CoFeCrGe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"],
+       "evidence": {"quote": "High ZT values of 0.71 and 0.65 were obtained for CoFeCrGe and CoFeTiGe, respectively", "raw_value": "0.71", "raw_unit": null, "conversion": null}},
+      {"property": "ZT", "value": 0.65, "value_max": null, "material": "CoFeTiGe", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"],
+       "evidence": {"quote": "High ZT values of 0.71 and 0.65 were obtained for CoFeCrGe and CoFeTiGe, respectively", "raw_value": "0.65", "raw_unit": null, "conversion": null}}
+    ], "note": null}
+  ]
+}

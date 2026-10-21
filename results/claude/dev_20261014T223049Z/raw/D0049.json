@@ -1,0 +1,1 @@
+{"model": "claude-opus-5-5", "stop_reason": "end_turn", "text": "{\"records\":[]}", "seconds": 2.78, "input_tokens": 3020, "output_tokens": 165}

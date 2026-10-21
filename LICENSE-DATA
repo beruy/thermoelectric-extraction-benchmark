@@ -1,0 +1,21 @@
+Data licence: Creative Commons Attribution 4.0 International (CC BY 4.0)
+https://creativecommons.org/licenses/by/4.0/
+
+Copyright (c) 2026 Berna Uyanık
+
+Covered: the annotation protocol and task specification
+(evaluation/PROTOCOL.md, evaluation/task_spec.md), the gold standards and
+annotation sheets (evaluation/data/*/gold, evaluation/data/*/annotation), the
+sampling keys and reports, the manifests, and all method outputs, scores and
+comparisons under results/.
+
+You may share and adapt this material for any purpose, provided you give
+appropriate credit (cite the paper, see CITATION.cff), provide a link to the
+licence, and indicate if changes were made.
+
+Not covered: the paragraph texts quoted in inputs.jsonl, annotation sheets and
+gold files are excerpts of the cited arXiv papers and remain under the licences
+chosen by their authors. They are included only so that the benchmark can be
+reproduced; for any other use, consult the licence of the source paper
+(arXiv identifiers are listed in evaluation/data/split.json and in the sample
+keys).

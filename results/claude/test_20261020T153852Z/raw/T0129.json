@@ -1,0 +1,1 @@
+{"model": "claude-opus-5-5", "stop_reason": "end_turn", "text": "{\"records\":[{\"property\":\"doping\",\"value\":null,\"value_max\":null,\"material\":null,\"T_K\":null,\"kappa_type\":null,\"qualifier\":null,\"origin\":\"reported\",\"context\":\"experimental\",\"doping_text\":\"10 at.% P\",\"carrier_conc_cm3\":null}]}", "seconds": 1.68, "input_tokens": 3205, "output_tokens": 98}

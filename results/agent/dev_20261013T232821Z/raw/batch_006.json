@@ -1,0 +1,176 @@
+{
+  "batch": "batch_006",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "D0051",
+      "status": "ok",
+      "records": [
+        {
+          "property": "PF",
+          "value": 0.62,
+          "value_max": null,
+          "material": "Fe0.99Co0.01(Ga0.997Ge0.003)3",
+          "T_K": 390,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "The highest power factor (S2/ρ(390 K) = 62 μW / K2 m)", "raw_value": "62", "raw_unit": "μW / K2 m", "conversion": "1 μW m^-1 K^-2 = 0.01 μW cm^-1 K^-2; 62 * 0.01 = 0.62"}
+        },
+        {
+          "property": "ZT",
+          "value": 0.013,
+          "value_max": null,
+          "material": "Fe0.99Co0.01(Ga0.997Ge0.003)3",
+          "T_K": 390,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["partial_evidence"],
+          "evidence": {"quote": "figure of merit (ZT(390 K) = 1.3 × 10-2)", "raw_value": "1.3 × 10-2", "raw_unit": null, "conversion": "1.3 × 10^-2 = 0.013"}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0052",
+      "status": "ok",
+      "records": [
+        {
+          "property": "ZT",
+          "value": 1,
+          "value_max": null,
+          "material": null,
+          "T_K": null,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["temperature_unspecified"],
+          "evidence": {"quote": "a 20% increase in zT, from 1 to 1.2", "raw_value": "1", "raw_unit": null, "conversion": null}
+        },
+        {
+          "property": "ZT",
+          "value": 1.2,
+          "value_max": null,
+          "material": null,
+          "T_K": null,
+          "kappa_type": null,
+          "qualifier": null,
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["temperature_unspecified"],
+          "evidence": {"quote": "a 20% increase in zT, from 1 to 1.2", "raw_value": "1.2", "raw_unit": null, "conversion": null}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0053",
+      "status": "ok",
+      "records": [],
+      "note": "Dataset statistics (mean, median, histogram peak) and an 'up to' bound; no records per rules 4 and 8."
+    },
+    {
+      "sample_id": "D0054",
+      "status": "ok",
+      "records": [
+        {
+          "property": "kappa",
+          "value": 0.05,
+          "value_max": null,
+          "material": "MnBi2Te4",
+          "T_K": null,
+          "kappa_type": "electronic",
+          "qualifier": "max",
+          "origin": "cited",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["ambiguous_attribution", "temperature_unspecified", "partial_evidence"],
+          "evidence": {"quote": "The maximum electron contribution below 25 K is 0.05 W/mK", "raw_value": "0.05", "raw_unit": "W/mK", "conversion": null}
+        }
+      ],
+      "note": "Paragraph describes results of ref. [46]; attribution as cited is a judgement."
+    },
+    {
+      "sample_id": "D0055",
+      "status": "ok",
+      "records": [
+        {
+          "property": "PF",
+          "value": 75,
+          "value_max": null,
+          "material": "ZrNi1.03Pb0.38Sn0.6Bi0.02",
+          "T_K": 773,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": [],
+          "evidence": {"quote": "A maximum PF of 75×10-4 W/mK2 at 773 K is achieved for ZrNi1.03Pb0.38Sn0.6Bi0.02", "raw_value": "75×10-4", "raw_unit": "W/mK2", "conversion": "75e-4 W m^-1 K^-2 * 1e4 = 75 μW cm^-1 K^-2"}
+        }
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "D0056",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "D0057",
+      "status": "ok",
+      "records": [
+        {
+          "property": "ZT",
+          "value": 1.5,
+          "value_max": null,
+          "material": "BiCuSeO doped with BaBi or CaBi and PbBi",
+          "T_K": 900,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "cited",
+          "context": "experimental",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": ["approximate_value", "partial_evidence"],
+          "evidence": {"quote": "a high zT of ~1.5 at ~900 K was achieved by several groups for BiCuSeO doped with BaBi or CaBi and PbBi", "raw_value": "~1.5", "raw_unit": null, "conversion": null}
+        }
+      ],
+      "note": "Thermal conductivity '< 1.5 W m–1 K–1' is a bound and not recorded."
+    },
+    {
+      "sample_id": "D0058",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "D0059",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "D0060",
+      "status": "ok",
+      "records": [],
+      "note": null
+    }
+  ]
+}

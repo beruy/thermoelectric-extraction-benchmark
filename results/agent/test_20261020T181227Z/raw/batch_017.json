@@ -1,0 +1,52 @@
+{
+  "batch": "batch_017",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0161", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0162", "status": "ok", "records": [], "note": "Carrier concentrations '-21016 and -21017 cm-3' are broken by PDF extraction; not recorded."},
+    {
+      "sample_id": "T0163",
+      "status": "ok",
+      "records": [
+        {
+          "property": "S_uVK",
+          "value": 2148,
+          "value_max": null,
+          "material": "HfS2 monolayer",
+          "T_K": 300,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": [],
+          "evidence": {"quote": "The highest Seebeck coefficient is found to be 2148 μV/K for n-type carriers (μ>0) and that of 2005 μV/K for p-type carriers (μ<0) at 300K for HfS2 monolayer", "raw_value": "2148", "raw_unit": "μV/K", "conversion": null}
+        },
+        {
+          "property": "S_uVK",
+          "value": 2005,
+          "value_max": null,
+          "material": "HfS2 monolayer",
+          "T_K": 300,
+          "kappa_type": null,
+          "qualifier": "max",
+          "origin": "reported",
+          "context": "computational",
+          "doping_text": null,
+          "carrier_conc_cm3": null,
+          "flags": [],
+          "evidence": {"quote": "2005 μV/K for p-type carriers (μ<0) at 300K for HfS2 monolayer", "raw_value": "2005", "raw_unit": "μV/K", "conversion": null}
+        }
+      ],
+      "note": "Relaxation-time-scaled power factor (W/m2Ks) is not PF in canonical units; not recorded."
+    },
+    {"sample_id": "T0164", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0165", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0166", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0167", "status": "ok", "records": [], "note": "Power factor value truncated at paragraph end; mobility values are not target properties."},
+    {"sample_id": "T0168", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0169", "status": "ok", "records": [], "note": "Seebeck given only as bound ('larger than 200 μV/K'); not recorded."},
+    {"sample_id": "T0170", "status": "ok", "records": [], "note": null}
+  ]
+}

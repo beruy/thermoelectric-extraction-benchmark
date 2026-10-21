@@ -1,0 +1,1 @@
+{"model": "claude-opus-5-5", "stop_reason": "end_turn", "text": "{\"records\":[{\"property\":\"sigma\",\"value\":62000,\"value_max\":null,\"material\":\"Ca2ZrTiO6\",\"T_K\":1200,\"kappa_type\":null,\"qualifier\":null,\"origin\":\"cited\",\"context\":\"computational\",\"doping_text\":null,\"carrier_conc_cm3\":null}]}", "seconds": 2.74, "input_tokens": 4015, "output_tokens": 227}

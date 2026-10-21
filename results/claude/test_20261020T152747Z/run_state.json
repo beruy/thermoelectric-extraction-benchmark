@@ -1,0 +1,11 @@
+{
+  "run_id": "test_20261020T152747Z",
+  "split": "test",
+  "model": "claude-opus-5-5",
+  "temperature": null,
+  "input_sha256": "518ff8a3b03fe68a7c5b279dc8c3a59fddd9ea1309c7e32dc56356829aaf9e79",
+  "system_sha256": "5cd922f1722acac524289a080d94cd3044f7c7c8bd8fe8a529f0b28c9651a0c7",
+  "schema_sha256": "ec4debef7b99bf0f766aaedf0516b4c8ece4205e2120cd1c1bc798ecb8a41204",
+  "limit": null,
+  "started_at": "2026-10-20T15:27:47+00:00"
+}

@@ -1,0 +1,1 @@
+{"model": "claude-opus-5-5", "stop_reason": "end_turn", "text": "{\"records\":[{\"property\":\"kappa\",\"value\":1,\"value_max\":2,\"material\":null,\"T_K\":null,\"kappa_type\":\"lattice\",\"qualifier\":\"range\",\"origin\":\"cited\",\"context\":\"experimental\",\"doping_text\":null,\"carrier_conc_cm3\":null}]}", "seconds": 2.58, "input_tokens": 3519, "output_tokens": 171}

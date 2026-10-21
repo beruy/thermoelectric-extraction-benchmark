@@ -1,0 +1,20 @@
+{
+  "recorded": "2026-10-14",
+  "file": "evaluation/data/dev/gold/gold_records.csv",
+  "sha256": "9fe5923aed06b85ff59c216c527a98f43827bd2ac5d43071532dedacdca9bbe4",
+  "rows": 190,
+  "paragraphs": 100,
+  "records": 135,
+  "none_paragraphs": 55,
+  "by_property": {
+    "ZT": 30,
+    "S_uVK": 29,
+    "kappa": 13,
+    "sigma": 19,
+    "PF": 12,
+    "doping": 32
+  },
+  "provenance": "Material column by annotator (BU), corrected with Claude review; property/value fields pre-annotated by ChatGPT; rule-based corrections by Claude review (marked in notes); every row reviewed and approved by the annotator (BU) on 2026-10-14.",
+  "frozen_before_scoring": "No method had been scored on dev when this file was frozen. Later changes are new versions with their own manifest.",
+  "protocol": "evaluation/PROTOCOL.md v0.5"
+}

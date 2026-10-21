@@ -1,0 +1,44 @@
+{
+  "version": "test gold v1.1 (corrected; secondary)",
+  "recorded": "2026-10-21",
+  "file": "evaluation/data/test/gold/gold_records_v1_1_corrected.csv",
+  "sha256": "102193319317104208bf03f2c1b8e866be73130f41bc736b5631e711bdb146b2",
+  "based_on": {
+    "file": "evaluation/data/test/gold/gold_records.csv",
+    "sha256": "e455adb7330fd4d440eed5b7b8e4e2a6f446141a73638a2ba7370ce0f7c54056",
+    "role": "primary gold (v1), unchanged"
+  },
+  "rule": "remove Unicode private-use characters (U+E000–U+F8FF) left by PDF parsing from material and material_aliases",
+  "reason": "found during the error analysis after scoring; such characters cannot be reproduced by a method that drops them; the correction is mechanical and applied to every record",
+  "changes": [
+    {
+      "sample_id": "T0073",
+      "record_no": "2",
+      "field": "material",
+      "old": "PbTe",
+      "new": "PbTe"
+    },
+    {
+      "sample_id": "T0073",
+      "record_no": "3",
+      "field": "material",
+      "old": "BiSbTe",
+      "new": "BiSbTe"
+    },
+    {
+      "sample_id": "T0073",
+      "record_no": "4",
+      "field": "material",
+      "old": "ZnSb",
+      "new": "ZnSb"
+    },
+    {
+      "sample_id": "T0073",
+      "record_no": "7",
+      "field": "material",
+      "old": "MnSi",
+      "new": "MnSi"
+    }
+  ],
+  "use": "sensitivity analysis only; primary scores use v1"
+}

@@ -1,0 +1,58 @@
+{
+  "recorded": "2026-10-19",
+  "version": "v1.1",
+  "file": "evaluation/data/dev/gold/gold_records.csv",
+  "sha256": "e836cb5e23459ae9af418dfc2dce4203a4f6902d6928fcf9cf7efcb39cbdfcf5",
+  "rows": 193,
+  "paragraphs": 100,
+  "records": 140,
+  "none_paragraphs": 53,
+  "by_property": {
+    "sigma": 24,
+    "ZT": 30,
+    "doping": 32,
+    "kappa": 13,
+    "S_uVK": 29,
+    "PF": 12
+  },
+  "previous": {
+    "version": "v1",
+    "file": "evaluation/data/dev/gold/gold_records_v1.csv",
+    "sha256": "9fe5923aed06b85ff59c216c527a98f43827bd2ac5d43071532dedacdca9bbe4",
+    "manifest": "evaluation/manifests/dev_gold_v1_2026-10-14.json"
+  },
+  "changes": [
+    {
+      "sample_id": "D0066",
+      "v1": "NONE",
+      "v1_1": "4 sigma records (Cu2Se and CuAgSe, ~323 K and 600 K), resistivity converted, sigma = 1/rho"
+    },
+    {
+      "sample_id": "D0076",
+      "v1": "NONE",
+      "v1_1": "1 sigma record (TiS2, rho_c 'in the order of about 1' Ohm cm, no temperature)"
+    }
+  ],
+  "reason": "v1 marked resistivity values as out of scope, contradicting PROTOCOL §5.2 (resistivity -> sigma when the unit is explicit). Found on 2026-10-15 while comparing M0 and M3 on dev (D0066).",
+  "audit": {
+    "folder": "evaluation/data/dev/audit/resistivity_2026-10-16",
+    "scope": "sigma decisions only, in the 24 dev paragraphs matching resistiv | ρ | \\rho | Ω | ohm | resistance",
+    "result": "22 of 24 paragraphs agree with v1 (20 NO_SIGMA, D0002 and D0099 SIGMA with the same values); D0066 and D0076 changed",
+    "annotator": "BU; decisions only by the annotator; Claude recorded them and did the unit conversion",
+    "blinding": "D0066 and D0076: M0/M3 outputs seen before the audit; D0076, D0082, D0085: v1 decisions seen during the audit; the other 20 paragraphs decided without method outputs or v1 decisions. Both changed paragraphs are among the non-blind ones; scores are reported against v1 and v1.1.",
+    "rule_decision": "'in the order of (about) X' with an explicit unit is an approximate value and is recorded (BU, 2026-10-16)"
+  },
+  "scores_v1_vs_v1_1": {
+    "v1": "results/comparisons/dev_20261019T163530Z.md",
+    "v1_1": "results/comparisons/dev_20261019T164325Z.md",
+    "v1_1_before_amendment": "results/comparisons/dev_20261019T163538Z.md"
+  },
+  "protocol": "evaluation/PROTOCOL.md v0.6",
+  "amendments": [
+    {
+      "date": "2026-10-19",
+      "change": "origin of the two D0066 Cu2Se records set to 'cited' by the annotator (empty before), with the reason in notes; CuAgSe records stay 'reported'",
+      "note": "made on the day v1.1 was created, before v1.1 was used for anything but the dev comparison; F1 scores are unaffected (origin is a secondary attribute)"
+    }
+  ]
+}

@@ -1,0 +1,11 @@
+{
+  "run_id": "dev_20261013T235941Z",
+  "split": "dev",
+  "model": "claude-opus-5-5",
+  "temperature": null,
+  "input_sha256": "938a3572a42175cc52edb29165b63017a4f1ce593e25ecc2e25f91a639dc4e0c",
+  "system_sha256": "5cd922f1722acac524289a080d94cd3044f7c7c8bd8fe8a529f0b28c9651a0c7",
+  "schema_sha256": "ec4debef7b99bf0f766aaedf0516b4c8ece4205e2120cd1c1bc798ecb8a41204",
+  "limit": 3,
+  "started_at": "2026-10-13T23:59:41+00:00"
+}

@@ -1,0 +1,32 @@
+{
+  "batch": "batch_001",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "D0001", "status": "ok", "records": [], "note": "Flattened figure axis text with broken exponents; no records."},
+    {"sample_id": "D0002", "status": "ok", "records": [
+      {"property": "sigma", "value": 59000, "value_max": null, "material": "x=0.00", "T_K": 800, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+       "evidence": {"quote": "The maximum value of conductivity was found to be ≈59000 S/m for x=0.00 at 800 K", "raw_value": "≈59000", "raw_unit": "S/m", "conversion": null}}
+    ], "note": "x=0.05 stated as 'identical' without a number; not recorded."},
+    {"sample_id": "D0003", "status": "ok", "records": [], "note": "Only mobility values; not target properties."},
+    {"sample_id": "D0004", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0005", "status": "ok", "records": [], "note": null},
+    {"sample_id": "D0006", "status": "ok", "records": [
+      {"property": "ZT", "value": 1, "value_max": null, "material": "RNiSn", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"],
+       "evidence": {"quote": "The highest dimensionless figure of merit (ZT) obtained is ~1 in the temperature range ~450-900oC", "raw_value": "~1", "raw_unit": null, "conversion": null}},
+      {"property": "ZT", "value": 1.2, "value_max": null, "material": "(Hf,Zr)NiSn", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"],
+       "evidence": {"quote": "ZT~1.2 has been obtained in a previous ZT~1 n-type (Hf,Zr)NiSn phase", "raw_value": "~1.2", "raw_unit": null, "conversion": null}},
+      {"property": "ZT", "value": 1, "value_max": null, "material": "(Hf,Zr)NiSn", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"],
+       "evidence": {"quote": "a previous ZT~1 n-type (Hf,Zr)NiSn phase", "raw_value": "~1", "raw_unit": null, "conversion": null}}
+    ], "note": null},
+    {"sample_id": "D0007", "status": "ok", "records": [
+      {"property": "doping", "value": 1e20, "value_max": null, "material": "silicon-germanium alloys", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "n-type", "carrier_conc_cm3": 1e20, "flags": ["partial_evidence"],
+       "evidence": {"quote": "enhances the n -type ZT by 50% at carrier concentrations of n=10^20 cm^-3", "raw_value": "10^20", "raw_unit": "cm^-3", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "D0008", "status": "ok", "records": [
+      {"property": "ZT", "value": 5.5, "value_max": null, "material": "TaCu3Te4", "T_K": 1000, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+       "evidence": {"quote": "The 1 GPa pressure improves the ZT of TaCu3Te4 impressively, reaching a maximum value of ~5.5 at 1000K for p-type carriers", "raw_value": "~5.5", "raw_unit": null, "conversion": null}}
+    ], "note": null},
+    {"sample_id": "D0009", "status": "ok", "records": [], "note": "Axis label only."},
+    {"sample_id": "D0010", "status": "ok", "records": [], "note": "Flattened table; no records per rule 7."}
+  ]
+}

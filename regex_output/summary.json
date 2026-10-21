@@ -1,0 +1,63 @@
+{
+  "inputs": {
+    "pdf_dir": "corpus-main",
+    "html_dir": "Claude outputs/corpus/html",
+    "source": "both",
+    "pdf_backend": "pymupdf"
+  },
+  "by_source": {
+    "pdf": {
+      "documents": 311,
+      "paragraphs": 21164,
+      "paragraphs_with_hits": 2099,
+      "cand_ZT": 1698,
+      "cand_S_uVK": 752,
+      "cand_sigma": 226,
+      "cand_doping": 1342,
+      "cand_PF": 356,
+      "cand_kappa": 755
+    },
+    "html": {
+      "documents": 146,
+      "paragraphs": 6776,
+      "paragraphs_with_hits": 964,
+      "cand_S_uVK": 369,
+      "cand_ZT": 771,
+      "cand_kappa": 408,
+      "cand_doping": 560,
+      "cand_PF": 198,
+      "cand_sigma": 114
+    }
+  },
+  "papers_with_any_candidate": 293,
+  "paired_papers": 146,
+  "paired_candidate_counts": {
+    "ZT": {
+      "html": 771,
+      "pdf": 815
+    },
+    "S_uVK": {
+      "html": 369,
+      "pdf": 369
+    },
+    "kappa": {
+      "html": 408,
+      "pdf": 397
+    },
+    "sigma": {
+      "html": 114,
+      "pdf": 115
+    },
+    "PF": {
+      "html": 198,
+      "pdf": 208
+    },
+    "doping": {
+      "html": 560,
+      "pdf": 620
+    }
+  },
+  "paired_html_hits_pdf_none": 0,
+  "paired_html_hits_pdf_none_ids": [],
+  "seconds": 224.7
+}

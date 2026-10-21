@@ -1,0 +1,33 @@
+{
+  "batch": "batch_004",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "T0031", "status": "ok", "records": [], "note": "Only bounds (>20, much smaller than 10 uV/K); not recorded."},
+    {"sample_id": "T0032", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0033", "status": "ok", "records": [
+      {"property": "kappa", "value": 1.0, "value_max": null, "material": "SM#3", "T_K": null, "kappa_type": "unspecified", "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"], "evidence": {"quote": "SM#3 starts at a very low magnitude of ~1 W m-1 K-1", "raw_value": "~1", "raw_unit": "W m-1 K-1", "conversion": null}},
+      {"property": "kappa", "value": 1.2, "value_max": null, "material": "SM#3", "T_K": 873, "kappa_type": "unspecified", "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "it increases monotonously from 1.2", "raw_value": "1.2", "raw_unit": "W m-1 K-1", "conversion": null}},
+      {"property": "kappa", "value": 2.5, "value_max": null, "material": "SM#3", "T_K": 1173, "kappa_type": "unspecified", "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "(873 K) to 2.5", "raw_value": "2.5", "raw_unit": "Wm-1K-1", "conversion": null}},
+      {"property": "kappa", "value": 1.75, "value_max": null, "material": "SM#3", "T_K": 873, "kappa_type": "unspecified", "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "from 1173 K to 873 K (1.75", "raw_value": "1.75", "raw_unit": "W m-1 K- 1", "conversion": null}},
+      {"property": "kappa", "value": 1.8, "value_max": null, "material": "SM#3", "T_K": null, "kappa_type": "unspecified", "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "stays uniform up to the room temperature (1.8", "raw_value": "1.8", "raw_unit": "W m-1 K-1", "conversion": null}}
+    ], "note": "Heating (1.2, 2.5) and cooling (1.75, 1.8) cycle values kept as separate conditions; +/- signs lost in extraction."},
+    {"sample_id": "T0034", "status": "ok", "records": [
+      {"property": "S_uVK", "value": 220, "value_max": null, "material": "Li2InBiCl6", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["ambiguous_attribution"], "evidence": {"quote": "The computed values of the Seebeck coefficient at 300K are 220, 230, and 250 μV/K for Li2InBiCl6, Li2InBiCl6, and Li2InBiCl6 respectively", "raw_value": "220", "raw_unit": "μV/K", "conversion": null}},
+      {"property": "S_uVK", "value": 230, "value_max": null, "material": "Li2InBiCl6", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["ambiguous_attribution"], "evidence": {"quote": "The computed values of the Seebeck coefficient at 300K are 220, 230, and 250 μV/K for Li2InBiCl6, Li2InBiCl6, and Li2InBiCl6 respectively", "raw_value": "230", "raw_unit": "μV/K", "conversion": null}},
+      {"property": "S_uVK", "value": 250, "value_max": null, "material": "Li2InBiCl6", "T_K": 300, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["ambiguous_attribution"], "evidence": {"quote": "The computed values of the Seebeck coefficient at 300K are 220, 230, and 250 μV/K for Li2InBiCl6, Li2InBiCl6, and Li2InBiCl6 respectively", "raw_value": "250", "raw_unit": "μV/K", "conversion": null}}
+    ], "note": "Paragraph names the same formula three times (likely Cl/Br/I typo); kept as written. ke/tau values are not kappa."},
+    {"sample_id": "T0035", "status": "ok", "records": [
+      {"property": "S_uVK", "value": 6.49, "value_max": null, "material": "BPDT", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"], "evidence": {"quote": "is calculated to be 6.49\n μVK^-1", "raw_value": "6.49", "raw_unit": "μVK^-1", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "T0036", "status": "ok", "records": [], "note": "Dataset fractions only."},
+    {"sample_id": "T0037", "status": "ok", "records": [], "note": "Dataset statistics; excluded by rule 8."},
+    {"sample_id": "T0038", "status": "ok", "records": [], "note": null},
+    {"sample_id": "T0039", "status": "ok", "records": [
+      {"property": "S_uVK", "value": -263, "value_max": null, "material": "FeVSb", "T_K": 550, "kappa_type": null, "qualifier": "max", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "peak values of ~ -263 μVK^-1 (S1) and ~ -266 μVK^-1 (S2) at 550 K and 500 K, respectively", "raw_value": "~ -263", "raw_unit": "μVK^-1", "conversion": null}},
+      {"property": "S_uVK", "value": -266, "value_max": null, "material": "FeVSb", "T_K": 500, "kappa_type": null, "qualifier": "max", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "partial_evidence"], "evidence": {"quote": "peak values of ~ -263 μVK^-1 (S1) and ~ -266 μVK^-1 (S2) at 550 K and 500 K, respectively", "raw_value": "~ -266", "raw_unit": "μVK^-1", "conversion": null}}
+    ], "note": "Samples S1 and S2 of FeVSb from Fu et al."},
+    {"sample_id": "T0040", "status": "ok", "records": [
+      {"property": "S_uVK", "value": 500, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["ambiguous_attribution", "temperature_unspecified"], "evidence": {"quote": "the Seebeck coefficients increase and reach 500 μV/K", "raw_value": "500", "raw_unit": "μV/K", "conversion": null}}
+    ], "note": "Value is |S| for films thinner than 100 nm of Sb2Te3 and Bi2Te3; '<200 uV/K' bound not recorded."}
+  ]
+}

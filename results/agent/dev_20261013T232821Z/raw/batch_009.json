@@ -1,0 +1,38 @@
+{
+  "batch": "batch_009",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {"sample_id": "D0081", "status": "ok", "records": [], "note": "Table caption only; no values."},
+    {"sample_id": "D0082", "status": "ok", "records": [
+      {"property": "doping", "value": 3e18, "value_max": null, "material": null, "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "grain boundary doping density", "carrier_conc_cm3": 3e18, "flags": ["ambiguous_attribution", "partial_evidence"],
+       "evidence": {"quote": "GB (3x10 18)", "raw_value": "3x10 18", "raw_unit": null, "conversion": "explicit x10 prefix, exponent restored: 3 x 10^18 cm^-3"}}
+    ], "note": "Second doping statement '18 -3 3 10 cm' is visibly broken and not recorded."},
+    {"sample_id": "D0083", "status": "ok", "records": [], "note": "Author list."},
+    {"sample_id": "D0084", "status": "ok", "records": [
+      {"property": "ZT", "value": 1.3, "value_max": null, "material": "(Hf0.6Zr0.4)0.99V0.01NiSn0.995Sb0.005", "T_K": 850, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"],
+       "evidence": {"quote": "The maximum ZT value for (Hf0.6Zr0.4)0.99V0.01NiSn0.995Sb0.005 is about 1.3 at 850 K.", "raw_value": "1.3", "raw_unit": null, "conversion": null}},
+      {"property": "ZT", "value": 1.2, "value_max": null, "material": "(Hf0.6Zr0.4)0.99Nb0.01NiSn0.995Sb0.005", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"],
+       "evidence": {"quote": "the maximum ZT values of (Hf0.6Zr0.4)0.99Nb0.01NiSn0.995Sb0.005 and (Hf0.6Zr0.4)0.99Ta0.01NiSn0.995Sb0.005 are about 1.2", "raw_value": "1.2", "raw_unit": null, "conversion": null}},
+      {"property": "ZT", "value": 1.2, "value_max": null, "material": "(Hf0.6Zr0.4)0.99Ta0.01NiSn0.995Sb0.005", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified"],
+       "evidence": {"quote": "the maximum ZT values of (Hf0.6Zr0.4)0.99Nb0.01NiSn0.995Sb0.005 and (Hf0.6Zr0.4)0.99Ta0.01NiSn0.995Sb0.005 are about 1.2", "raw_value": "1.2", "raw_unit": null, "conversion": null}},
+      {"property": "doping", "value": null, "value_max": null, "material": "(Hf0.6Zr0.4)0.99V0.01NiSn0.995Sb0.005", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "1% V-doped", "carrier_conc_cm3": null, "flags": ["partial_evidence"],
+       "evidence": {"quote": "1% V-doped sample", "raw_value": "1%", "raw_unit": null, "conversion": null}}
+    ], "note": null},
+    {"sample_id": "D0085", "status": "ok", "records": [], "note": "Resistivity '~ 104 Ωcm' has a visibly lost superscript; not recorded."},
+    {"sample_id": "D0086", "status": "ok", "records": [], "note": "Author list."},
+    {"sample_id": "D0087", "status": "ok", "records": [], "note": "Garbled equation."},
+    {"sample_id": "D0088", "status": "ok", "records": [
+      {"property": "kappa", "value": 0.27, "value_max": null, "material": "β-CuAgSe", "T_K": null, "kappa_type": "lattice", "qualifier": "min", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "temperature_unspecified", "partial_evidence"],
+       "evidence": {"quote": "the κl can be as low as ~0.27 W m-1 K-1", "raw_value": "~0.27", "raw_unit": "W m-1 K-1", "conversion": null}},
+      {"property": "kappa", "value": 0.4, "value_max": 0.6, "material": "β-Cu2Se", "T_K": null, "kappa_type": "lattice", "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified"],
+       "evidence": {"quote": "values of β-Cu2Se (0.4-0.6 W m-1 K-1)", "raw_value": "0.4-0.6", "raw_unit": "W m-1 K-1", "conversion": null}}
+    ], "note": null},
+    {"sample_id": "D0089", "status": "ok", "records": [
+      {"property": "S_uVK", "value": -18, "value_max": null, "material": "Co/Cu multilayer", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"],
+       "evidence": {"quote": "SP = – 18 μV/K for parallel", "raw_value": "– 18", "raw_unit": "μV/K", "conversion": null}},
+      {"property": "S_uVK", "value": -14, "value_max": null, "material": "Co/Cu multilayer", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["temperature_unspecified", "partial_evidence"],
+       "evidence": {"quote": "SAP = – 14 μV/K for antiparallel spin configuration", "raw_value": "– 14", "raw_unit": "μV/K", "conversion": null}}
+    ], "note": "Magneto-ZT and magneto-PF ratios are not ZT/PF values."},
+    {"sample_id": "D0090", "status": "ok", "records": [], "note": "Bound ('up to about') over a dataset; not recorded."}
+  ]
+}

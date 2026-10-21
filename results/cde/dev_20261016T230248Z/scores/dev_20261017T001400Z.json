@@ -1,0 +1,707 @@
+{
+  "split": "dev",
+  "run": "results/cde/dev_20261016T230248Z",
+  "method_id": "M1",
+  "run_id": "dev_20261016T230248Z",
+  "scored_at": "2026-10-17T00:14:00+00:00",
+  "gold_file": "evaluation/data/dev/gold/gold_records.csv",
+  "gold_sha256": "9fe5923aed06b85ff59c216c527a98f43827bd2ac5d43071532dedacdca9bbe4",
+  "input_sha256": "938a3572a42175cc52edb29165b63017a4f1ce593e25ecc2e25f91a639dc4e0c",
+  "parameters": {
+    "value_rel_tol": 0.01,
+    "carrier_rel_tol": 0.05,
+    "t_tol_K": 1.0,
+    "t_tol_status": "provisional (PROTOCOL.md: temperature tolerance not yet decided)",
+    "room_temperature_range_K": [
+      293.0,
+      300.0
+    ],
+    "bootstrap_reps": 2000,
+    "bootstrap_seed": 7,
+    "material_matching": "safe formatting only",
+    "f1_definition": "2TP / (2TP + FP + FN)"
+  },
+  "labels": {
+    "sample_level": "unweighted; the annotated paragraphs themselves",
+    "corpus_level": "weighted by 1/pi (Hajek); in-scope paragraphs of the split's papers"
+  },
+  "n_paragraphs": {
+    "total": 100,
+    "in_scope": 80,
+    "control": 20,
+    "failed": 0
+  },
+  "n_gold_records_in_scope": 135,
+  "capabilities": [
+    "ZT",
+    "S_uVK",
+    "kappa",
+    "sigma",
+    "PF"
+  ],
+  "scores": {
+    "core_all": {
+      "L1": {
+        "sample_level": {
+          "precision": 0.7307692307692307,
+          "recall": 0.18446601941747573,
+          "f1": 0.29457364341085274,
+          "tp": 19.0,
+          "fp": 7.0,
+          "fn": 84.0,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.55,
+              0.9
+            ],
+            "recall": [
+              0.08333333333333333,
+              0.2608695652173913
+            ],
+            "f1": [
+              0.14634146341463414,
+              0.39344262295081966
+            ],
+            "undefined_resamples": {}
+          }
+        },
+        "corpus_level": {
+          "precision": 0.6449722393584207,
+          "recall": 0.16486635654025067,
+          "f1": 0.2626059654631082,
+          "tp": 209.09999999999997,
+          "fp": 115.09999999999998,
+          "fn": 1059.2000000000003,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.35534591194968557,
+              0.9709302325581395
+            ],
+            "recall": [
+              0.06719793237131165,
+              0.2920837124658781
+            ],
+            "f1": [
+              0.11768617021276596,
+              0.43183035236157225
+            ],
+            "undefined_resamples": {}
+          }
+        }
+      },
+      "L2": {
+        "sample_level": {
+          "precision": 0.6538461538461539,
+          "recall": 0.1650485436893204,
+          "f1": 0.26356589147286824,
+          "tp": 17.0,
+          "fp": 9.0,
+          "fn": 86.0,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.38461538461538464,
+              0.8181818181818182
+            ],
+            "recall": [
+              0.0625,
+              0.2376237623762376
+            ],
+            "f1": [
+              0.10526315789473684,
+              0.358695652173913
+            ],
+            "undefined_resamples": {}
+          }
+        },
+        "corpus_level": {
+          "precision": 0.5968537939543492,
+          "recall": 0.15256642750137978,
+          "f1": 0.2430141287284144,
+          "tp": 193.5,
+          "fp": 130.7,
+          "fn": 1074.8000000000002,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.30119742093951496,
+              0.9155313351498637
+            ],
+            "recall": [
+              0.05571307059824214,
+              0.2702884615384615
+            ],
+            "f1": [
+              0.09681591426987741,
+              0.40458999484270236
+            ],
+            "undefined_resamples": {}
+          }
+        }
+      },
+      "L3": {
+        "sample_level": {
+          "precision": 0.46153846153846156,
+          "recall": 0.11650485436893204,
+          "f1": 0.18604651162790697,
+          "tp": 12.0,
+          "fp": 14.0,
+          "fn": 91.0,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.11764705882352941,
+              0.6363636363636364
+            ],
+            "recall": [
+              0.018867924528301886,
+              0.18269230769230768
+            ],
+            "f1": [
+              0.032520325203252036,
+              0.2777777777777778
+            ],
+            "undefined_resamples": {}
+          }
+        },
+        "corpus_level": {
+          "precision": 0.30444170265268344,
+          "recall": 0.07782070488054875,
+          "f1": 0.12395604395604394,
+          "tp": 98.69999999999999,
+          "fp": 225.50000000000003,
+          "fn": 1169.6000000000001,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.03910969793322735,
+              0.6865384615384615
+            ],
+            "recall": [
+              0.009373668512995311,
+              0.19110926464478603
+            ],
+            "f1": [
+              0.014945652173913042,
+              0.2880671992094211
+            ],
+            "undefined_resamples": {}
+          }
+        }
+      }
+    },
+    "core_supported_only": {
+      "L1": {
+        "sample_level": {
+          "precision": 0.7307692307692307,
+          "recall": 0.18446601941747573,
+          "f1": 0.29457364341085274,
+          "tp": 19.0,
+          "fp": 7.0,
+          "fn": 84.0,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.55,
+              0.9
+            ],
+            "recall": [
+              0.08333333333333333,
+              0.2608695652173913
+            ],
+            "f1": [
+              0.14634146341463414,
+              0.39344262295081966
+            ],
+            "undefined_resamples": {}
+          }
+        },
+        "corpus_level": {
+          "precision": 0.6449722393584207,
+          "recall": 0.16486635654025067,
+          "f1": 0.2626059654631082,
+          "tp": 209.09999999999997,
+          "fp": 115.09999999999998,
+          "fn": 1059.2000000000003,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.35534591194968557,
+              0.9709302325581395
+            ],
+            "recall": [
+              0.06719793237131165,
+              0.2920837124658781
+            ],
+            "f1": [
+              0.11768617021276596,
+              0.43183035236157225
+            ],
+            "undefined_resamples": {}
+          }
+        }
+      },
+      "L2": {
+        "sample_level": {
+          "precision": 0.6538461538461539,
+          "recall": 0.1650485436893204,
+          "f1": 0.26356589147286824,
+          "tp": 17.0,
+          "fp": 9.0,
+          "fn": 86.0,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.38461538461538464,
+              0.8181818181818182
+            ],
+            "recall": [
+              0.0625,
+              0.2376237623762376
+            ],
+            "f1": [
+              0.10526315789473684,
+              0.358695652173913
+            ],
+            "undefined_resamples": {}
+          }
+        },
+        "corpus_level": {
+          "precision": 0.5968537939543492,
+          "recall": 0.15256642750137978,
+          "f1": 0.2430141287284144,
+          "tp": 193.5,
+          "fp": 130.7,
+          "fn": 1074.8000000000002,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.30119742093951496,
+              0.9155313351498637
+            ],
+            "recall": [
+              0.05571307059824214,
+              0.2702884615384615
+            ],
+            "f1": [
+              0.09681591426987741,
+              0.40458999484270236
+            ],
+            "undefined_resamples": {}
+          }
+        }
+      },
+      "L3": {
+        "sample_level": {
+          "precision": 0.46153846153846156,
+          "recall": 0.11650485436893204,
+          "f1": 0.18604651162790697,
+          "tp": 12.0,
+          "fp": 14.0,
+          "fn": 91.0,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.11764705882352941,
+              0.6363636363636364
+            ],
+            "recall": [
+              0.018867924528301886,
+              0.18269230769230768
+            ],
+            "f1": [
+              0.032520325203252036,
+              0.2777777777777778
+            ],
+            "undefined_resamples": {}
+          }
+        },
+        "corpus_level": {
+          "precision": 0.30444170265268344,
+          "recall": 0.07782070488054875,
+          "f1": 0.12395604395604394,
+          "tp": 98.69999999999999,
+          "fp": 225.50000000000003,
+          "fn": 1169.6000000000001,
+          "ci95_paper_bootstrap": {
+            "reps": 2000,
+            "precision": [
+              0.03910969793322735,
+              0.6865384615384615
+            ],
+            "recall": [
+              0.009373668512995311,
+              0.19110926464478603
+            ],
+            "f1": [
+              0.014945652173913042,
+              0.2880671992094211
+            ],
+            "undefined_resamples": {}
+          }
+        }
+      }
+    },
+    "extended_doping": "not supported"
+  },
+  "per_property_L3": {
+    "ZT": {
+      "n_gold_records": 30,
+      "sample_level": {
+        "precision": 0.3,
+        "recall": 0.1,
+        "f1": 0.15,
+        "tp": 3.0,
+        "fp": 7.0,
+        "fn": 27.0,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.0,
+            0.6666666666666666
+          ],
+          "recall": [
+            0.0,
+            0.2727272727272727
+          ],
+          "f1": [
+            0.0,
+            0.375
+          ],
+          "undefined_resamples": {}
+        }
+      },
+      "corpus_level": {
+        "precision": 0.23248532289628177,
+        "recall": 0.07299090685672156,
+        "f1": 0.1111007200972599,
+        "tp": 59.4,
+        "fp": 196.10000000000002,
+        "fn": 754.3999999999999,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.0,
+            0.7313829787234043
+          ],
+          "recall": [
+            0.0,
+            0.2574643660915229
+          ],
+          "f1": [
+            0.0,
+            0.36469685341519564
+          ],
+          "undefined_resamples": {}
+        }
+      }
+    },
+    "S_uVK": {
+      "n_gold_records": 29,
+      "sample_level": {
+        "precision": 0.5,
+        "recall": 0.10344827586206896,
+        "f1": 0.17142857142857143,
+        "tp": 3.0,
+        "fp": 3.0,
+        "fn": 26.0,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.0,
+            1.0
+          ],
+          "recall": [
+            0.0,
+            0.20689655172413793
+          ],
+          "f1": [
+            0.0,
+            0.3287671232876712
+          ],
+          "undefined_resamples": {
+            "precision": 88
+          }
+        }
+      },
+      "corpus_level": {
+        "precision": 0.45833333333333326,
+        "recall": 0.09348441926345608,
+        "f1": 0.1552941176470588,
+        "tp": 19.799999999999997,
+        "fp": 23.400000000000002,
+        "fn": 192.0,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.0,
+            1.0
+          ],
+          "recall": [
+            0.0,
+            0.20060790273556228
+          ],
+          "f1": [
+            0.0,
+            0.31845597104945716
+          ],
+          "undefined_resamples": {
+            "precision": 88
+          }
+        }
+      }
+    },
+    "kappa": {
+      "n_gold_records": 13,
+      "sample_level": {
+        "precision": 1.0,
+        "recall": 0.07692307692307693,
+        "f1": 0.14285714285714285,
+        "tp": 1.0,
+        "fp": 0.0,
+        "fn": 12.0,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            1.0,
+            1.0
+          ],
+          "recall": [
+            0.0,
+            0.2857142857142857
+          ],
+          "f1": [
+            0.0,
+            0.4444444444444444
+          ],
+          "undefined_resamples": {
+            "precision": 764,
+            "recall": 1,
+            "f1": 1
+          }
+        }
+      },
+      "corpus_level": {
+        "precision": 1.0,
+        "recall": 0.036328871892925434,
+        "f1": 0.07011070110701108,
+        "tp": 5.7,
+        "fp": 0.0,
+        "fn": 151.2,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            1.0,
+            1.0
+          ],
+          "recall": [
+            0.0,
+            0.1844660194174757
+          ],
+          "f1": [
+            0.0,
+            0.3114754098360656
+          ],
+          "undefined_resamples": {
+            "precision": 764,
+            "recall": 1,
+            "f1": 1
+          }
+        }
+      }
+    },
+    "sigma": {
+      "n_gold_records": 19,
+      "sample_level": {
+        "precision": 0.5,
+        "recall": 0.21052631578947367,
+        "f1": 0.2962962962962963,
+        "tp": 4.0,
+        "fp": 4.0,
+        "fn": 15.0,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.0,
+            0.5714285714285714
+          ],
+          "recall": [
+            0.0,
+            0.26666666666666666
+          ],
+          "f1": [
+            0.0,
+            0.36363636363636365
+          ],
+          "undefined_resamples": {
+            "precision": 233,
+            "recall": 81,
+            "f1": 21
+          }
+        }
+      },
+      "corpus_level": {
+        "precision": 0.5,
+        "recall": 0.21052631578947367,
+        "f1": 0.2962962962962963,
+        "tp": 6.0,
+        "fp": 6.0,
+        "fn": 22.5,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.0,
+            0.5714285714285714
+          ],
+          "recall": [
+            0.0,
+            0.26666666666666666
+          ],
+          "f1": [
+            0.0,
+            0.36363636363636365
+          ],
+          "undefined_resamples": {
+            "precision": 233,
+            "recall": 81,
+            "f1": 21
+          }
+        }
+      }
+    },
+    "PF": {
+      "n_gold_records": 12,
+      "sample_level": {
+        "precision": 1.0,
+        "recall": 0.08333333333333333,
+        "f1": 0.15384615384615385,
+        "tp": 1.0,
+        "fp": 0.0,
+        "fn": 11.0,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            1.0,
+            1.0
+          ],
+          "recall": [
+            0.0,
+            0.3333333333333333
+          ],
+          "f1": [
+            0.0,
+            0.5
+          ],
+          "undefined_resamples": {
+            "precision": 740
+          }
+        }
+      },
+      "corpus_level": {
+        "precision": 1.0,
+        "recall": 0.13612565445026176,
+        "f1": 0.23963133640552994,
+        "tp": 7.800000000000001,
+        "fp": 0.0,
+        "fn": 49.50000000000001,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            1.0,
+            1.0
+          ],
+          "recall": [
+            0.0,
+            0.5342465753424659
+          ],
+          "f1": [
+            0.0,
+            0.6964285714285715
+          ],
+          "undefined_resamples": {
+            "precision": 740
+          }
+        }
+      }
+    },
+    "doping": {
+      "status": "not supported",
+      "n_gold_records": 32
+    }
+  },
+  "secondary": {
+    "stoichiometry_aware_L3_core": {
+      "sample_level": {
+        "precision": 0.46153846153846156,
+        "recall": 0.11650485436893204,
+        "f1": 0.18604651162790697,
+        "tp": 12.0,
+        "fp": 14.0,
+        "fn": 91.0,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.11764705882352941,
+            0.6363636363636364
+          ],
+          "recall": [
+            0.018867924528301886,
+            0.18269230769230768
+          ],
+          "f1": [
+            0.032520325203252036,
+            0.2777777777777778
+          ],
+          "undefined_resamples": {}
+        }
+      },
+      "corpus_level": {
+        "precision": 0.30444170265268344,
+        "recall": 0.07782070488054875,
+        "f1": 0.12395604395604394,
+        "tp": 98.69999999999999,
+        "fp": 225.50000000000003,
+        "fn": 1169.6000000000001,
+        "ci95_paper_bootstrap": {
+          "reps": 2000,
+          "precision": [
+            0.03910969793322735,
+            0.6865384615384615
+          ],
+          "recall": [
+            0.009373668512995311,
+            0.19110926464478603
+          ],
+          "f1": [
+            0.014945652173913042,
+            0.2880671992094211
+          ],
+          "undefined_resamples": {}
+        }
+      }
+    },
+    "origin_accuracy_on_L3_matches": {
+      "n": 12,
+      "accuracy": 0.0
+    },
+    "context_accuracy_on_L3_matches": null,
+    "diagnostics": {
+      "unit_errors": {
+        "ZT": 1,
+        "sigma": 2
+      },
+      "sign_errors": {}
+    },
+    "duplicates_collapsed": 0,
+    "invalid_prediction_records": 0,
+    "invalid_records_note": "contract-invalid records never match; counted as false positives",
+    "predictions_ignored_on_failed_paragraphs": 0
+  },
+  "control_stratum": {
+    "paragraphs": 20,
+    "gold_records": 0,
+    "predictions": 0
+  }
+}

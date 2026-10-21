@@ -1,0 +1,68 @@
+{
+  "created": "2026-10-13T19:03:43+00:00",
+  "parameters": {
+    "frame": "regex_output",
+    "arxiv_meta": "Claude outputs/corpus/metadata.csv",
+    "out": "evaluation/data",
+    "dev_frac": 0.3,
+    "split_seed": 20261009,
+    "dev_n": 100,
+    "test_n": 200,
+    "dev_seed": 1009,
+    "test_seed": 2009,
+    "reliability_frac": 0.2,
+    "reliability_seed": 3009,
+    "force": false,
+    "reuse_split": "evaluation/archive/frame_v1_2026-10-09/data/split.json",
+    "design": {
+      "none_frac": 0.2,
+      "control_frac": 0.2,
+      "min_per_stratum": 15,
+      "max_per_paper": 0,
+      "source": "auto",
+      "mc_reps": 2000
+    }
+  },
+  "samples": {
+    "dev": {
+      "n": 100,
+      "papers": 57,
+      "by_stratum": {
+        "out_of_scope": 20,
+        "sigma": 10,
+        "doping": 10,
+        "in_scope_no_hit": 20,
+        "ZT": 10,
+        "PF": 10,
+        "kappa": 10,
+        "S_uVK": 10
+      }
+    },
+    "test": {
+      "n": 200,
+      "papers": 116,
+      "by_stratum": {
+        "in_scope_no_hit": 40,
+        "out_of_scope": 40,
+        "ZT": 31,
+        "PF": 16,
+        "doping": 21,
+        "kappa": 18,
+        "sigma": 15,
+        "S_uVK": 19
+      }
+    }
+  },
+  "files": {
+    "dev/annotation/annotation_sheet.csv": "1c0e12583334085c7617143bb529fcea5d4ebcc8fbc23731c7858c15885ad6b9",
+    "dev/inputs.jsonl": "938a3572a42175cc52edb29165b63017a4f1ce593e25ecc2e25f91a639dc4e0c",
+    "dev/private/sample_key.jsonl": "96b0c25088d661694aef359689fc9e1fcea9ca08c0e527898b367acbacea9b4d",
+    "dev/private/sampling_report.json": "085f9959cbef1014ff1a9f8bca9fd9ff16c2eb19943b763517ed9fff450ac880",
+    "split.json": "5d330ff5462b03f3cd7c2faf2d16f8010195f395581070cdd5fda6f05823765a",
+    "test/annotation/annotation_sheet.csv": "e039ef687c8d9412b97294120d843a478bbf9b4815eae71621fe6679cb7d9095",
+    "test/inputs.jsonl": "518ff8a3b03fe68a7c5b279dc8c3a59fddd9ea1309c7e32dc56356829aaf9e79",
+    "test/private/reliability_subset.json": "8895e5511727554cf94434fa66a9012d2f2c049fdd6ae86545335afe2d293b09",
+    "test/private/sample_key.jsonl": "192995e87b79099c505ff4cb0b4d557ead3f66a01932fcd07b90c562587228ff",
+    "test/private/sampling_report.json": "f9926e3f9c05ca5fa7b1199a128d3470d11a644b4503a2a17530fadb5e342b26"
+  }
+}

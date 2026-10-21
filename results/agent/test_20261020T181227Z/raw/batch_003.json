@@ -1,0 +1,96 @@
+{
+  "batch": "batch_003",
+  "agent": "pdf-extractor",
+  "paragraphs": [
+    {
+      "sample_id": "T0021",
+      "status": "ok",
+      "records": [
+        {"property": "doping", "value": 1e15, "value_max": null, "material": "Si", "T_K": 100, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "electron doping of 2× 10^-8 e/atom", "carrier_conc_cm3": 1e15, "flags": ["partial_evidence"], "evidence": {"quote": "electron doping of 2× 10^-8 e/atom (N=1× 10^15 cm^-3)\nat a temperature of 100 K", "raw_value": "1× 10^15", "raw_unit": "cm^-3", "conversion": null}},
+        {"property": "doping", "value": 2e21, "value_max": null, "material": "Si", "T_K": 900, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": "electron doping of 0.04 e/atom", "carrier_conc_cm3": 2e21, "flags": ["partial_evidence"], "evidence": {"quote": "electron doping of 0.04 e/atom (N=2× 10^21 cm^-3)\nat a temperature of 900 K", "raw_value": "2× 10^21", "raw_unit": "cm^-3", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0022",
+      "status": "ok",
+      "records": [],
+      "note": "Only nominal compositions and synthesis conditions; no property values."
+    },
+    {
+      "sample_id": "T0023",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0024",
+      "status": "ok",
+      "records": [
+        {"property": "S_uVK", "value": 84, "value_max": null, "material": "Ti-doped alloy (x=0.37)", "T_K": 453, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "For Ti-doped alloys a maximum Seebeck coefficient of 84 μV/K is obtained for a doping concentration of x=0.37 at a temperature of 180 °C", "raw_value": "84", "raw_unit": "μV/K", "conversion": "180 °C + 273 = 453 K"}},
+        {"property": "S_uVK", "value": -65, "value_max": null, "material": "W-doped alloy (x=0.1)", "T_K": 543, "kappa_type": null, "qualifier": "max", "origin": "reported", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["ambiguous_attribution"], "evidence": {"quote": "W-doped alloys show the maximum absolute Seebeck coefficient of 65 μV/K for the alloy with lowest amount of W, with a concentration of x=0.1, at a temperature of 270 °C", "raw_value": "65", "raw_unit": "μV/K", "conversion": "absolute value; sign negative per paragraph (negative Seebeck for W doped alloys); 270 °C + 273 = 543 K"}},
+        {"property": "doping", "value": null, "value_max": null, "material": "Ti-doped alloy (x=0.37)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "Ti, x=0.37", "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "a doping concentration of x=0.37", "raw_value": "x=0.37", "raw_unit": null, "conversion": null}},
+        {"property": "doping", "value": null, "value_max": null, "material": "W-doped alloy (x=0.1)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "experimental", "doping_text": "W, x=0.1", "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "lowest amount of W, with a concentration of x=0.1", "raw_value": "x=0.1", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0025",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0026",
+      "status": "ok",
+      "records": [
+        {"property": "ZT", "value": 2.2, "value_max": null, "material": "out-of-plane n-doped SnSe", "T_K": 807, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "zT would reach\na significantly smaller value of around 2.2 at 807 K", "raw_value": "2.2", "raw_unit": null, "conversion": null}}
+      ],
+      "note": "Counterfactual value from low-temperature fit."
+    },
+    {
+      "sample_id": "T0027",
+      "status": "ok",
+      "records": [
+        {"property": "kappa", "value": 1, "value_max": 2, "material": null, "T_K": null, "kappa_type": "lattice", "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "κl = 1-2 W/mK", "raw_value": "1-2", "raw_unit": "W/mK", "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0028",
+      "status": "ok",
+      "records": [],
+      "note": null
+    },
+    {
+      "sample_id": "T0029",
+      "status": "ok",
+      "records": [
+        {"property": "sigma", "value": 1000, "value_max": 10000, "material": "Cu2ASnSe4 where A=Co,Mn,Cd,Zn", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "Cu2ASnSe4 where A=Co,Mn,Cd,Zn show conductivity of the order of 10^3 - 10^4 Sm^-1", "raw_value": "10^3 - 10^4", "raw_unit": "Sm^-1", "conversion": null}},
+        {"property": "ZT", "value": 0.14, "value_max": 0.7, "material": "Cu2ASnSe4 where A=Co,Mn,Cd,Zn", "T_K": null, "kappa_type": null, "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value", "ambiguous_attribution"], "evidence": {"quote": "These result into a moderate value of ZT (~ 0.14-0.7)", "raw_value": "0.14-0.7", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 0.7, "value_max": null, "material": "Cu2CoSnSe4", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "Cu2CoSnSe4 (with ZT = 0.7)", "raw_value": "0.7", "raw_unit": null, "conversion": null}},
+        {"property": "PF", "value": 6.7, "value_max": null, "material": "Cu2CoSnSe4", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "Cu2CoSnSe4 (with ZT = 0.7) shows a power-factor of 0.67 mWm^-1K^-2", "raw_value": "0.67", "raw_unit": "mWm^-1K^-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}},
+        {"property": "PF", "value": 2.0, "value_max": 3.8, "material": "Cu2(Zn, Cd, Mn)SnSe4", "T_K": 800, "kappa_type": null, "qualifier": "range", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "Cu2(Zn, Cd, Mn)SnSe4, show even smaller power factor lying in the range 0.2-0.38 mWm^-1K^-2 at ~ 800 K", "raw_value": "0.2-0.38", "raw_unit": "mWm^-1K^-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}},
+        {"property": "PF", "value": 3.8, "value_max": null, "material": "Cu2MnSnSe4", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "Cu excess at Mn site in Cu2MnSnSe4[18] increases S^2σ from 0.38 to 0.7 mWm^-1K^-2", "raw_value": "0.38", "raw_unit": "mWm^-1K^-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}},
+        {"property": "PF", "value": 7.0, "value_max": null, "material": "Cu2MnSnSe4 (Cu excess at Mn site)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "Cu excess at Mn site in Cu2MnSnSe4[18] increases S^2σ from 0.38 to 0.7 mWm^-1K^-2", "raw_value": "0.7", "raw_unit": "mWm^-1K^-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}},
+        {"property": "PF", "value": 1.6, "value_max": null, "material": "Cu2CdSnSe4", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "at Cd site in Cu2CdSnSe4[16] increases it from 0.16 to 0.5 mWm^-1K^-2", "raw_value": "0.16", "raw_unit": "mWm^-1K^-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}},
+        {"property": "PF", "value": 5.0, "value_max": null, "material": "Cu2CdSnSe4 (Cu excess at Cd site)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "at Cd site in Cu2CdSnSe4[16] increases it from 0.16 to 0.5 mWm^-1K^-2", "raw_value": "0.5", "raw_unit": "mWm^-1K^-2", "conversion": "x10 (mW m-1 K-2 to uW cm-1 K-2)"}},
+        {"property": "ZT", "value": 0.61, "value_max": null, "material": "Cu2MnSnSe4 (Cu excess at Mn site)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "resulting in ZT values of 0.61 and 0.65 respectively", "raw_value": "0.61", "raw_unit": null, "conversion": null}},
+        {"property": "ZT", "value": 0.65, "value_max": null, "material": "Cu2CdSnSe4 (Cu excess at Cd site)", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["partial_evidence"], "evidence": {"quote": "resulting in ZT values of 0.61 and 0.65 respectively", "raw_value": "0.65", "raw_unit": null, "conversion": null}}
+      ],
+      "note": null
+    },
+    {
+      "sample_id": "T0030",
+      "status": "ok",
+      "records": [
+        {"property": "PF", "value": 39.8, "value_max": null, "material": "p-FeNbSb", "T_K": 1100, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The calculated and reported PF for p-FeNbSb [97], at 1100 K, are 39.8 μW cm^-1 K^-2 and 45.8 μW cm^-1 K^-2", "raw_value": "39.8", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "PF", "value": 45.8, "value_max": null, "material": "p-FeNbSb", "T_K": 1100, "kappa_type": null, "qualifier": null, "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "The calculated and reported PF for p-FeNbSb [97], at 1100 K, are 39.8 μW cm^-1 K^-2 and 45.8 μW cm^-1 K^-2", "raw_value": "45.8", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "PF", "value": 38, "value_max": null, "material": "p-FeTaSb", "T_K": 1100, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "At 1100 K, the calculated PF of p-FeTaSb is 38 μW cm^-1 K^-2", "raw_value": "38", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "PF", "value": 23.2, "value_max": null, "material": "CoTiSb", "T_K": null, "kappa_type": null, "qualifier": "max", "origin": "cited", "context": "experimental", "doping_text": null, "carrier_conc_cm3": null, "flags": ["approximate_value"], "evidence": {"quote": "CoTiSb, reported [104, 105] to have the maximum PF of about 23.2 μW cm^-1 K^-2", "raw_value": "23.2", "raw_unit": "μW cm^-1 K^-2", "conversion": null}},
+        {"property": "PF", "value": 10.6, "value_max": null, "material": "n-FeMnTiSb", "T_K": null, "kappa_type": null, "qualifier": null, "origin": "reported", "context": "computational", "doping_text": null, "carrier_conc_cm3": null, "flags": [], "evidence": {"quote": "the n-FeMnTiSb shows a high PF of 10.6 μW cm^-1 K^-2 at room temperature", "raw_value": "10.6", "raw_unit": "μW cm^-1 K^-2", "conversion": null}}
+      ],
+      "note": null
+    }
+  ]
+}

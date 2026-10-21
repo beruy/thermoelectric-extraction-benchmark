@@ -1,0 +1,45 @@
+{
+  "method_id": "M0",
+  "method_name": "Regex baseline (regex_extractor)",
+  "run_id": "test_20261020T152543Z",
+  "split": "test",
+  "code_version": {
+    "package_sha256": "88ff669bdfaa4c16d1cef69e12ed0060a23cad4e3aa0818947910bab2b97ea03",
+    "rules_file_sha256": "ee2fbfc32ab6593bdd5d4c542e86cf1542b4b39de171d3e923ebb4a5a282723a",
+    "rules_match_frozen_manifest": true
+  },
+  "config": {
+    "temp_window": 90
+  },
+  "model_id": null,
+  "model_params": null,
+  "input_file": "evaluation/data/test/inputs.jsonl",
+  "input_sha256": "518ff8a3b03fe68a7c5b279dc8c3a59fddd9ea1309c7e32dc56356829aaf9e79",
+  "started_at": "2026-10-20T15:25:43+00:00",
+  "finished_at": "2026-10-20T15:25:45+00:00",
+  "wall_seconds": 2.093,
+  "n_paragraphs": 200,
+  "n_ok": 200,
+  "n_failed": 0,
+  "n_predictions": 302,
+  "n_invalid_predictions": 0,
+  "n_model_calls": 0,
+  "input_tokens": null,
+  "output_tokens": null,
+  "cost_usd": 0.0,
+  "price_table": null,
+  "hardware": {
+    "python": "3.13.16",
+    "machine": "x86_64",
+    "system": "Linux"
+  },
+  "capabilities": [
+    "ZT",
+    "S_uVK",
+    "kappa",
+    "sigma",
+    "PF",
+    "doping"
+  ],
+  "development_note": "corpus-informed baseline: rules developed on the full corpus before the dev/test split (PROTOCOL.md \u00a73)"
+}
