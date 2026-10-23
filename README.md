@@ -1,7 +1,8 @@
 # Benchmarking thermoelectric property extraction from scientific text
 
 Code, protocol, gold standards and all method outputs for the paper of the same
-title (arXiv: to be added).
+title, preprint on ChemRxiv:
+[10.26434/chemrxiv.15010913/v1](https://doi.org/10.26434/chemrxiv.15010913/v1).
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.23522991.svg)](https://doi.org/10.5281/zenodo.23522991)
 
@@ -75,6 +76,12 @@ licences of the source papers.
 
 ## Citation
 
-See `CITATION.cff`. Release v1.0 is archived on Zenodo:
-[10.5281/zenodo.23522991](https://doi.org/10.5281/zenodo.23522991). The arXiv
-identifier will be added on publication.
+Please cite the preprint:
+
+> Uyanık, B. (2026). Benchmarking thermoelectric property extraction from
+> scientific text. ChemRxiv.
+> https://doi.org/10.26434/chemrxiv.15010913/v1
+
+Release v1.0 of this repository is archived on Zenodo:
+[10.5281/zenodo.23522991](https://doi.org/10.5281/zenodo.23522991).
+See also `CITATION.cff`.

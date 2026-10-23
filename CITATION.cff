@@ -1,13 +1,24 @@
 cff-version: 1.2.0
-message: "If you use this benchmark, please cite the paper."
+message: "If you use this benchmark, please cite the preprint."
 title: "Benchmarking thermoelectric property extraction from scientific text"
 authors:
   - family-names: "Uyanık"
     given-names: "Berna"
+    orcid: "https://orcid.org/0000-0002-3934-5538"
 repository-code: "https://github.com/beruy/thermoelectric-extraction-benchmark"
 license: MIT
 version: "v1.0"
 doi: "10.5281/zenodo.23522991"
 type: software
-# Add after publication:
-# preferred-citation: arXiv identifier and Zenodo DOI
+preferred-citation:
+  type: article
+  title: "Benchmarking thermoelectric property extraction from scientific text"
+  authors:
+    - family-names: "Uyanık"
+      given-names: "Berna"
+      orcid: "https://orcid.org/0000-0002-3934-5538"
+  journal: "ChemRxiv"
+  year: 2026
+  month: 10
+  doi: "10.26434/chemrxiv.15010913/v1"
+  url: "https://doi.org/10.26434/chemrxiv.15010913/v1"
